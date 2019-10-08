@@ -8,29 +8,14 @@
 // License:  https://github.com/jackryanoracoy/moonshine/blob/master/LICENSE.txt
 
 /*--------------------------------------------------
-  Site-main
+  Site-navigation
 --------------------------------------------------*/
 
-.l-site-main {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: start;
-  justify-content: space-between;
+.l-site-navigation {
 
-  &__navigation,
-  &__content {
-    flex: 0 0 auto;
-    width: 100%;
-    max-width: 100%;
-    padding: 20px 10px;
-  }
 
   @include media-breakpoint-min(lg) {
-    &__navigation,
-    &__content { padding: 20px; }
-
-    &__navigation { max-width: 280px; }
-    &__content { max-width: calc(100% - 280px); }
+    position: sticky;
+    top: 0;
   }
 }

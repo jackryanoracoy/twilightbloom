@@ -47,8 +47,8 @@
 --------------------------------------------------------------*/
 :root {
   /* theme color */
-  --primary: #263238;
-  --secondary: #37474F;
+  --primary: #C51162;
+  --secondary: #880E4F;
   --success: #4CAF50;
   --info: #00BCD4;
   --warning: #FF9800;
@@ -94,5 +94,4 @@
   --font-family-sans-serif-condensed: "Open Sans Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-
 /*# sourceMappingURL=setting.css.map */

@@ -61,7 +61,7 @@
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 25px;
-  background-color: #263238;
+  background-color: #C51162;
   -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 4px 0 rgba(0, 0, 0, 0.15);
           box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 4px 0 rgba(0, 0, 0, 0.15);
   white-space: nowrap;
@@ -129,7 +129,7 @@
 .c-highlight {
   color: #FAFAFA;
   padding: 20px;
-  background-color: #37474F;
+  background-color: #880E4F;
   border-radius: 4px;
   overflow: auto;
 }
@@ -171,7 +171,7 @@
 }
 
 .c-heading-above-the-fold {
-  color: #263238;
+  color: #C51162;
   font-size: 2.8rem;
   letter-spacing: 0.5rem;
 }
@@ -289,19 +289,14 @@
   font-size: 1.5rem;
   line-height: 50px;
   text-decoration: none;
+  background-color: #880E4F;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 @media (min-width: 992px) {
-  .c-site-nav {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .c-site-nav__item a:hover, .c-site-nav__item--active a {
-    background-color: #263238;
+  .c-site-nav__item:hover a, .c-site-nav__item--active a {
+    background-color: #C51162;
   }
 }
 
@@ -337,5 +332,4 @@
     font-size: 2.8rem;
   }
 }
-
 /*# sourceMappingURL=component.css.map */

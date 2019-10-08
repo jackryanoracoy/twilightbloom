@@ -1,4 +1,4 @@
-// Moonshine - Scalable and Maintainable Architecture.
+// Twilightbloom - Simple, Scalable and Maintainable Architecture.
 
 // IE support for "main"
 document.createElement('main');
