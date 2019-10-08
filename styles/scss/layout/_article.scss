@@ -1,0 +1,34 @@
+// Moonshine
+// Scalable and Maintainable Architecture.
+//
+// Author:   Jack Ryan Oracoy
+// Website:  https://jackryanoracoy.github.io
+// Email:    jackryanoracoy@gmail.com
+// URL:      https://github.com/jackryanoracoy/moonshine
+// License:  https://github.com/jackryanoracoy/moonshine/blob/master/LICENSE.txt
+
+/*--------------------------------------------------
+  Article
+--------------------------------------------------*/
+
+.l-article {
+  padding: ($section-gutter / 2) 0 0;
+
+  &--padding-wide { padding: $section-gutter 0 0; }
+  &--padding-narrow { padding: ($section-gutter / 4) 0 0; }
+
+  &--padding-no { padding: 0; }
+  &--padding-wide { padding: 50px 0 0; }
+  &--padding-narrow { padding: 10px 0 0; }
+
+  @include media-breakpoint-min(lg) {
+    padding: $section-gutter 0 0;
+
+    &--padding-wide { padding: ($section-gutter * 2) 0 0; }
+    &--padding-narrow { padding: ($section-gutter / 2) 0 0; }
+  }
+
+  @media print { page-break-inside: avoid; }
+}
+
+
