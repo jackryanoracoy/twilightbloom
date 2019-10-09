@@ -2793,13 +2793,19 @@ textarea {
   Site-header
 --------------------------------------------------*/
 .l-site-header {
+  position: relative;
   width: 100%;
-  min-width: 320px;
   -webkit-transition: all 300ms ease-in-out 120ms;
   transition: all 300ms ease-in-out 120ms;
   z-index: 9;
 }
 .l-site-header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0 10px;
   height: 60px;
 }
@@ -2811,6 +2817,9 @@ textarea {
 }
 @media (min-width: 992px) {
   .l-site-header__content {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     height: 75px;
     padding: 0 20px;
   }
@@ -2857,6 +2866,11 @@ textarea {
           flex: 0 0 auto;
   width: 100%;
   max-width: 100%;
+}
+.l-site-main__navigation {
+  padding: 0 10px;
+}
+.l-site-main__content {
   padding: 20px 10px;
 }
 @media (min-width: 992px) {
@@ -2874,11 +2888,25 @@ textarea {
 /*--------------------------------------------------
   Site-navigation
 --------------------------------------------------*/
+.l-site-navigation {
+  -webkit-transition: all 300ms ease-in-out 120ms;
+  transition: all 300ms ease-in-out 120ms;
+  overflow: hidden;
+  z-index: 99;
+}
 @media (min-width: 992px) {
   .l-site-navigation {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+  }
+}
+@media (max-width: 991px) {
+  .l-site-navigation {
+    max-height: 0;
+  }
+  .l-site-navigation.js-show {
+    max-height: 100vh;
   }
 }
 
@@ -3195,6 +3223,7 @@ textarea {
       -ms-flex-direction: column;
           flex-direction: column;
   list-style: none;
+  background-color: #880E4F;
 }
 .c-site-nav__item {
   overflow: hidden;
@@ -3206,13 +3235,12 @@ textarea {
   font-size: 1.5rem;
   line-height: 50px;
   text-decoration: none;
-  background-color: #880E4F;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 @media (min-width: 992px) {
-  .c-site-nav__item:hover a, .c-site-nav__item--active a {
+  .c-site-nav__item:hover, .c-site-nav__item--active {
     background-color: #C51162;
   }
 }
@@ -11659,4 +11687,5 @@ textarea {
 .u-image-block {
   display: block;
 }
+
 /*# sourceMappingURL=all.css.map */

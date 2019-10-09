@@ -12,12 +12,14 @@
 --------------------------------------------------*/
 
 .l-site-header {
+  position: relative;
   width: 100%;
-  min-width: 320px;
   transition: $transition;
   z-index: 9;
 
   &__content {
+    display: flex;
+    align-items: center;
     padding: 0 10px;
     height: $header-height_m;
   }
@@ -30,17 +32,9 @@
     max-width: calc(100% - 50px);
   }
 
-  // &__navigation {
-  //   max-width: 100%;
-  //   max-height: 0;
-  //   transition: $transition;
-  //   overflow: hidden;
-  // }
-
-  // &__navigation.js-show { max-height: 100vh; }
-
   @include media-breakpoint-min(lg) {
     &__content {
+      justify-content: space-between;
       height: $header-height;
       padding: 0 20px;
     }
@@ -54,10 +48,6 @@
     &__branding {
       width: auto;
     }
-
-    // &__navigation {
-    //   max-height: 100vh;
-    // }
   }
 
   @include media-breakpoint-max(lg) {

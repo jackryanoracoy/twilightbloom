@@ -15,10 +15,9 @@
   display: flex;
   flex-direction: column;
   list-style: none;
+  background-color: $secondary;
 
-  &__item {
-    overflow: hidden;
-  }
+  &__item { overflow: hidden; }
 
   &__item a {
     display: block;
@@ -27,15 +26,14 @@
     font-size: 1.5rem;
     line-height: $nav-height;
     text-decoration: none;
-    background-color: $secondary;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
 
   @include media-breakpoint-min(lg) {
-    &__item:hover a,
-    &__item--active a {
+    &__item:hover,
+    &__item--active {
       background-color: $primary;
     }
   }

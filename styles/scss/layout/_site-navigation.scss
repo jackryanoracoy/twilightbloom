@@ -12,10 +12,18 @@
 --------------------------------------------------*/
 
 .l-site-navigation {
-
+  transition: $transition;
+  overflow: hidden;
+  z-index: 99;
 
   @include media-breakpoint-min(lg) {
     position: sticky;
     top: 0;
+  }
+
+  @include media-breakpoint-max(lg) {
+    max-height: 0;
+
+    &.js-show { max-height: 100vh; }
   }
 }

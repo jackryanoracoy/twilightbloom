@@ -22,7 +22,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="shortcut icon" href="app-icon/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
 
     <link rel="stylesheet" type="text/css" media="all" href="styles/style.css">
   </head>
@@ -33,7 +33,11 @@
 
     <header class="l-site-header u-background-primary">
 
-      <div class="l-site-header__content l-container l-flex l-flex--jus-spbetween l-flex--alt-center">
+      <div class="l-site-header__content l-container">
+
+        <div class="l-site-header__menu u-hidden-lg-min">
+          <a class="c-site-menu" href="javascript:void(0)"><span class="c-site-menu__box"><span class="c-site-menu__inner"></span></span></a>
+        </div><!-- End - menu -->
 
         <div class="l-site-header__branding">
           <a class="c-site-branding" href="index.html"><h1 class="c-site-branding__title">SITE TITLE</h1></a>
@@ -43,13 +47,10 @@
           <a class="c-button c-button--dark" href="#">CTA Button</span></a>
         </div><!-- End - cta -->
 
-        <div class="l-site-header__menu u-hidden-lg-min">
-          <a class="c-site-menu" href="javascript:void(0)"><span class="c-site-menu__box"><span class="c-site-menu__inner"></span></span></a>
-        </div><!-- End - menu -->
-
       </div><!-- End - content -->
 
     </header><!-- End - site-header -->
+
 
     <main class="l-site-main l-container">
 

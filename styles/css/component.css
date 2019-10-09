@@ -278,6 +278,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   list-style: none;
+  background-color: #880E4F;
 }
 .c-site-nav__item {
   overflow: hidden;
@@ -289,13 +290,12 @@
   font-size: 1.5rem;
   line-height: 50px;
   text-decoration: none;
-  background-color: #880E4F;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 @media (min-width: 992px) {
-  .c-site-nav__item:hover a, .c-site-nav__item--active a {
+  .c-site-nav__item:hover, .c-site-nav__item--active {
     background-color: #C51162;
   }
 }
@@ -332,4 +332,5 @@
     font-size: 2.8rem;
   }
 }
+
 /*# sourceMappingURL=component.css.map */
