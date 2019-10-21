@@ -1,11 +1,11 @@
-// Moonshine
-// Scalable and Maintainable Architecture.
+// Twilightbloom
+// Simple, Scalable and Maintainable Architecture.
 //
 // Author:   Jack Ryan Oracoy
 // Website:  https://jackryanoracoy.github.io
 // Email:    jackryanoracoy@gmail.com
-// URL:      https://github.com/jackryanoracoy/moonshine
-// License:  https://github.com/jackryanoracoy/moonshine/blob/master/LICENSE.txt
+// URL:      https://github.com/jackryanoracoy/twilightbloom
+// License:  https://github.com/jackryanoracoy/twilightbloom/blob/master/LICENSE.txt
 
 /*--------------------------------------------------
   Site-main
@@ -17,22 +17,4 @@
   flex-wrap: wrap;
   align-items: start;
   justify-content: space-between;
-
-  &__navigation,
-  &__content {
-    flex: 0 0 auto;
-    width: 100%;
-    max-width: 100%;
-  }
-
-  &__navigation { padding: 0 10px;  }
-  &__content { padding: 20px 10px;  }
-
-  @include media-breakpoint-min(lg) {
-    &__navigation,
-    &__content { padding: 20px; }
-
-    &__navigation { max-width: 280px; }
-    &__content { max-width: calc(100% - 280px); }
-  }
 }
