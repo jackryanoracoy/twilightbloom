@@ -1,4 +1,12 @@
-// Twilightbloom - Simple, Scalable and Maintainable Architecture.
+// Twilightbloom
+// Scalable and Maintainable Architecture.
+//
+// Author:   Jack Ryan Oracoy
+// Website:  https://jackryanoracoy.github.io
+// Email:    jackryanoracoy@gmail.com
+// URL:      https://github.com/jackryanoracoy/twilightbloom
+// License:  https://github.com/jackryanoracoy/twilightbloom/blob/master/LICENSE.txt
+
 
 // IE support for "main"
 document.createElement('main');
@@ -9,26 +17,6 @@ $(function () { objectFitImages() });
 // Add target="_blank" rel="noreferrer noopener"
 $('a[href^="http://"], a[href^="https://"]').attr({ target:"_blank", rel:"noreferrer noopener" });
 
-// Smooth scroll
-$(document).ready(function() {
-  $("a").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({ scrollTop: $(hash).offset().top }, 300,
-      function() { window.location.hash = hash; });
-    }
-  });
-});
-
-// Toggle class on click
-$(document).ready(function($) {
-  $('.c-site-menu').click(function() {
-    $('.c-site-menu').stop().toggleClass('js-active');
-    $('.l-site-navigation').stop().toggleClass('js-show');
-  });
-});
-
 // Detect if user is using TAB to navigate
 function handleFirstTab(e) {
   if (e.keyCode === 9) {
@@ -37,3 +25,12 @@ function handleFirstTab(e) {
   }
 }
 window.addEventListener('keydown', handleFirstTab);
+
+// Toggle class on click
+$(document).ready(function($) {
+  $('.c-site-menu').click(function() {
+    $('.c-site-menu').stop().toggleClass('js-active');
+    $('.l-site-header').stop().toggleClass('js-menu-opened');
+    $('.l-site-header__navigation').stop().toggleClass('js-show');
+  });
+});

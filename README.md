@@ -1,14 +1,14 @@
-# Moonshine
+# Twilightbloom
   
-Moonshine (Front-end Web Development Boilerplate) - A Scalable and Maintainable Architecture.  
+Twilightbloom (Front-end Web Development Boilerplate) - A Scalable and Maintainable Architecture.  
   
   
 ## Getting Started  
 
-Get started with Moonshine, a scalable and maintainable architecture for building responsive, mobile-first web apps or sites.  
-Moonshine helps you build not only fast but scalable and maintainable web apps or sites. With Moonshine you have a package that is built with the combined knowledge and effort of some great developers, from their methodology, codes, packages, etc...  
+Get started with Twilightbloom, a scalable and maintainable architecture for building responsive, mobile-first web apps or sites.  
+Twilightbloom helps you build not only fast but scalable and maintainable web apps or sites. With Twilightbloom you have a package that is built with the combined knowledge and effort of some great developers, from their methodology, codes, packages, etc...  
   
-Ready to kick-start your project using Moonshine? Download Moonshine package or check Moonshine releases.  
+Ready to kick-start your project using Twilightbloom? [Read the documentation page](https://jackryanoracoy.github.io/twilightbloom).  
 Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Or you can use our boilerplate.html included in the package.  
   
 ### Content  
@@ -16,7 +16,7 @@ Be sure to have your pages set up with the latest design and development standar
 Discover what’s included in the package. Once downloaded, unzip the compressed folder and you’ll see something similar to this:  
   
 ```
-moonshine/
+Twilightbloom/
 ├── addon/
 │   └── fontawesome/
 ├── assets/
@@ -71,7 +71,7 @@ moonshine/
   
 ### Theming  
   
-Customize Moonshine with CSS variables or SASS variables for global style preferences for easy theming and component changes.
+Customize Twilightbloom with CSS variables or SASS variables for global style preferences for easy theming and component changes.
 Here are the CSS variables we include (note that the :root is required). For more info, please check settings.css or the scss code base (mixins, variables etc...).
   
 ```
@@ -121,15 +121,14 @@ Here are the CSS variables we include (note that the :root is required). For mor
   --transition: all 300ms ease-in-out 120ms;
 
   /* font-family */
-  --font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-family-sans-serif-condensed: "Open Sans Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-sans-serif: "Noto Sans JP", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "游ゴシック", "游ゴシック体", YuGothic, "Yu Gothic", "メイリオ", Meiryo, "ＭＳ ゴシック", "MS Gothic", HiraKakuProN-W3, "TakaoExゴシック", TakaoExGothic, "MotoyaLCedar", "Droid Sans Japanese", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 ```
   
 ### Breakpoints  
   
-Moonshine use a handful of media queries to create sensible breakpoints for layouts and interfaces. 
+Twilightbloom use a handful of media queries to create sensible breakpoints for layouts and interfaces. 
 These breakpoints are mostly based on minimum viewport widths and allow us to scale up elements as the viewport changes.  
   
 ```
@@ -187,7 +186,7 @@ component.css - specific UI components.
 Sassy CSS  
   
 ```
-moonshine/
+Twilightbloom/
 └── styles/
     ├── css
     │   ├── all.css
@@ -231,12 +230,13 @@ moonshine/
 Basic CSS  
   
 ```
-moonshine/
+Twilightbloom/
 └── styles/
     ├── base.css
     ├── component.css
     ├── layout.css
-    ├── setting.map
+    ├── setting.css
+    ├── utility.css
     └── style.css
 ```  
   
@@ -300,6 +300,7 @@ Some great works that are included in this template.
 * [Modernizr (v3.7.1)](https://modernizr.com/)  
 * [Object-Fit Images (v3.2.3)](https://github.com/fregante/object-fit-images/)  
 * [Apache Server Configs (v3.2.1)](https://github.com/h5bp/server-configs-apache)  
+* [Normalize (v8.0.1)](https://necolas.github.io/normalize.css/)  
 * [Font Awesome (v5.10.1)](https://fontawesome.com/)  
 * [Google Fonts](https://fonts.google.com/)  
 * [EditorConfig](https://editorconfig.org)  
@@ -308,7 +309,7 @@ Some great works that are included in this template.
 ## Author  
   
 Jack Ryan Oracoy  
-https://jackryanoracoy.github.io  
+[https://jackryanoracoy.github.io](https://jackryanoracoy.github.io)  
 jackryanoracoy@gmail.com  
   
 [Github](https://github.com/jackryanoracoy), 

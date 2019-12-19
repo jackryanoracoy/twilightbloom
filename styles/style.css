@@ -1,21 +1,21 @@
 /*!
- * Moonshine
+ * Twilightbloom
  * Scalable and Maintainable Architecture.
  *
  * Author:   Jack Ryan Oracoy
  * Website:  https://jackryanoracoy.github.io
  * Email:    jackryanoracoy@gmail.com
- * URL:      https://github.com/jackryanoracoy/moonshine
- * License:  https://github.com/jackryanoracoy/moonshine/blob/master/LICENSE.txt
+ * URL:      https://github.com/jackryanoracoy/twilightbloom
+ * License:  https://github.com/jackryanoracoy/twilightbloom/blob/master/LICENSE.txt
  */
 
 
 /*
  * GETTING STARTED
  *
- * Get started with Moonshine, a scalable and maintainable architecture for building responsive, mobile-first web apps or sites.
- * Moonshine helps you build not only fast but scalable and maintainable web apps or sites.
- * With Moonshine you have a package that is built with the combined knowledge and effort of some great developers, from their methodology, codes, packages, etc...
+ * Get started with Twilightbloom, a scalable and maintainable architecture for building responsive, mobile-first web apps or sites.
+ * Twilightbloom helps you build not only fast but scalable and maintainable web apps or sites.
+ * With Twilightbloom you have a package that is built with the combined knowledge and effort of some great developers, from their methodology, codes, packages, etc...
  *
  *
  * CSS METHODOLOGY
@@ -47,15 +47,11 @@
  */
 
 
-@import "css/setting.css";
-@import "css/base.css";
-@import "css/layout.css";
-@import "css/component.css";
-@import "css/utility.css";
+ @import "setting.css";
+ @import "base.css";
+ @import "layout.css";
+ @import "component.css";
+ @import "utility.css";
 
 
-/*
- * NOTE:
- * You can use the minified version of the styles above (e.g. setting.min.css).
- * You can also use "all.css or all.min.css" instead of this file.
- */
+/* NOTE: You can also use "all.css instead of this file. */

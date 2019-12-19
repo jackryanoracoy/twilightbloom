@@ -1,0 +1,60 @@
+// Twilightbloom
+// Simple, Scalable, and Maintainable Architecture.
+//
+// Author:   Jack Ryan Oracoy
+// Website:  https://jackryanoracoy.github.io
+// Email:    jackryanoracoy@gmail.com
+// URL:      https://github.com/jackryanoracoy/twilightbloom
+// License:  https://github.com/jackryanoracoy/twilightbloom/blob/master/LICENSE.txt
+
+/*--------------------------------------------------
+  Site-header
+--------------------------------------------------*/
+
+.l-site-header {
+  position: relative;
+  width: 100%;
+  min-width: 240px;
+  z-index: 9;
+
+  &__content {
+    padding: 0 10px;
+  }
+
+
+  &__navigation {
+    max-height: 0;
+    transition: $transition;
+    overflow: hidden;
+  }
+
+  &__navigation.js-show { max-height: 100vh; }
+
+  @include media-breakpoint-min(lg) {
+
+    &__content {
+      padding: 0 20px;
+    }
+
+    &__content:first-child {
+      height: $header-height;
+    }
+
+    &__navigation {
+      max-height: 100vh;
+    }
+  }
+
+  @include media-breakpoint-max(lg) {
+
+    &__action {
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+    }
+  }
+
+  @media print {
+    &__action { display: none; }
+  }
+}
