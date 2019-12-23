@@ -1,6 +1,6 @@
 # Twilightbloom
   
-Twilightbloom (Front-end Web Development Boilerplate) - A Scalable and Maintainable Architecture.  
+Twilightbloom (Front-end Web Development Boilerplate) - A Simple yet Scalable and Maintainable Architecture.  
   
   
 ## Getting Started  
@@ -18,55 +18,58 @@ Discover what’s included in the package. Once downloaded, unzip the compressed
 ```
 Twilightbloom/
 ├── addon/
-│   └── fontawesome/
 ├── assets/
-│   ├── app-icon/
 │   ├── fonts/
 │   └── images/
 ├── scripts/
 │   ├── jquery-3.4.1.min.js
-│   ├── modernizr-3.7.1.min.js
 │   ├── object-fit-images-3.2.3.min.js
 │   └── script.js
 ├── styles/
-│   ├── css
-│   │   ├── all.css
-│   │   ├── all.css.map
-│   │   ├── all.min.css
-│   │   ├── base.css
-│   │   ├── base.css.map
-│   │   ├── base.min.css
-│   │   ├── component.css
-│   │   ├── component.css.map
-│   │   ├── component.min.css
-│   │   ├── layout.css
-│   │   ├── layout.css.map
-│   │   ├── layout.min.css
-│   │   ├── setting.css
-│   │   ├── setting.css.map
-│   │   ├── setting.min.css
-│   │   ├── utility.css
-│   │   ├── utility.css.map
-│   │   └── utility.min.css
-│   ├── scss
+│   ├── source
+│   │   ├── base
+│   │   │   └── *.scss
+│   │   ├── component
+│   │   │   └── *.scss
+│   │   ├── layout
+│   │   │   └── *.scss
+│   │   ├── setting
+│   │   │   └── *.scss
+│   │   ├── utility
+│   │   │   └── *.scss
 │   │   ├── all.scss
 │   │   ├── base.scss
 │   │   ├── component.scss
 │   │   ├── layout.scss
 │   │   ├── setting.scss
 │   │   └── utility.scss
-│   └── style.css
+│   ├── all.css
+│   ├── all.css.map
+│   ├── base.css
+│   ├── base.css.map
+│   ├── component.css
+│   ├── component.css.map
+│   ├── layout.css
+│   ├── layout.css.map
+│   ├── setting.css
+│   ├── setting.css.map
+│   ├── style.css
+│   ├── utility.css
+│   └── utility.css.map
 ├── .editorconfig
 ├── .gitattributes
 ├── .gitignore
 ├── .htaccess
+├── android-icon-192x192.png
+├── apple-icon-precomposed.png
+├── favicon-16x16.png
+├── favicon-32x32.png
+├── favicon-96x96.png
+├── favicon.png
 ├── 404.html
 ├── boilerplate.html
-├── browserconfig.xml
 ├── index.html
-├── manifrest.json
-├── robots.txt
-└── service-worker.js
+└── robots.js
 ```
   
 ### Theming  
@@ -188,26 +191,7 @@ Sassy CSS
 ```
 Twilightbloom/
 └── styles/
-    ├── css
-    │   ├── all.css
-    │   ├── all.css.map
-    │   ├── all.min.css
-    │   ├── base.css
-    │   ├── base.css.map
-    │   ├── base.min.css
-    │   ├── component.css
-    │   ├── component.css.map
-    │   ├── component.min.css
-    │   ├── layout.css
-    │   ├── layout.css.map
-    │   ├── layout.min.css
-    │   ├── setting.css
-    │   ├── setting.css.map
-    │   ├── setting.min.css
-    │   ├── utility.css
-    │   ├── utility.css.map
-    │   └── utility.min.css
-    ├── scss
+    ├── source
     │   ├── base
     │   │   └── *.scss
     │   ├── component
@@ -224,7 +208,19 @@ Twilightbloom/
     │   ├── layout.scss
     │   ├── setting.scss
     │   └── utility.scss
-    └── style.css
+    ├── all.css
+    ├── all.css.map
+    ├── base.css
+    ├── base.css.map
+    ├── component.css
+    ├── component.css.map
+    ├── layout.css
+    ├── layout.css.map
+    ├── setting.css
+    ├── setting.css.map
+    ├── style.css
+    ├── utility.css
+    └── utility.css.map
 ```
   
 Basic CSS  
@@ -297,11 +293,9 @@ Import order:
 Some great works that are included in this template.  
    
 * [jQuery (v3.4.1)](https://jquery.com/)  
-* [Modernizr (v3.7.1)](https://modernizr.com/)  
 * [Object-Fit Images (v3.2.3)](https://github.com/fregante/object-fit-images/)  
 * [Apache Server Configs (v3.2.1)](https://github.com/h5bp/server-configs-apache)  
 * [Normalize (v8.0.1)](https://necolas.github.io/normalize.css/)  
-* [Font Awesome (v5.10.1)](https://fontawesome.com/)  
 * [Google Fonts](https://fonts.google.com/)  
 * [EditorConfig](https://editorconfig.org)  
   

@@ -1,48 +1,28 @@
 <!DOCTYPE html>
-<html class="no-js" lang="EN">
+<html lang="JA">
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
 
-    <title>Moonshine | Scalable and Maintainable Architecture</title>
+    <title>Twilightbloom - Simple, Scalable and Maintainable Architecture</title>
 
-    <meta name="keywords" content="Moonshine, Front-end, Template, Front-end Template, Scalable, Maintainable">
-    <meta name="description" content="This is a scalable and maintainable front-end web development template, created by Jack Ryan Oracoy">
+    <meta name="keywords" content="Twilightbloom, Front-end, boilerplate, Front-end boilerplate, Scalable, Maintainable">
+    <meta name="description" content="Twilightbloom, a simple yet scalable and maintainable front-end web development boilerplate, created by Jack Ryan Oracoy">
 
-    <meta property="og:site_name" content="Moonshine">
-    <meta property="og:title" content="Moonshine | Scalable and Maintainable Architecture">
+    <meta property="og:site_name" content="Twilightbloom">
+    <meta property="og:title" content="Twilightbloom - Scalable and Maintainable Architecture">
     <meta property="og:image" content="A string of Unicode characters forming a valid URL having the http or https scheme.">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="This is a scalable and maintainable front-end web development template, created by Jack Ryan Oracoy">
+    <meta property="og:description" content="Twilightbloom, a simple yet scalable and maintainable front-end web development boilerplate, created by Jack Ryan Oracoy">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#263238">
-
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-    <meta name="msapplication-TileColor" content="#263238">
-    <meta name="msapplication-TileImage" content="assets/app-icon/ms-icon-144x144.png">
-
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/app-icon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/app-icon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/app-icon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/app-icon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/app-icon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/app-icon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/app-icon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/app-icon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/app-icon/apple-icon-180x180.png">
-
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/app-icon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/app-icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/app-icon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/app-icon/favicon-16x16.png">
-    <link rel="shortcut icon" href="assets/app-icon/favicon.ico">
-
-    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="apple-icon-precomposed.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="shortcut icon" href="favicon.ico">
 
     <link rel="stylesheet" type="text/css" media="all" href="styles/style.css">
   </head>
@@ -53,30 +33,30 @@
 
     <header class="l-site-header">
 
-      <div class="l-site-header__content u-background-primary l-flex l-flex--jus-spbetween l-flex--alt-center">
+      <div class="l-site-header__content u-background-primary l-flex l-flex--wrp-no-lg l-flex--jus-spbetween l-flex--alt-center">
 
-        <div class="l-site-header__branding">
-          <a class="c-site-branding" href="index.html"><h1 class="c-site-branding__title">SITE TITLE</h1></a>
+        <div class="l-site-header__branding l-flex__item l-flex__item-lg-4 l-flex__shrink-lg">
+          <a class="c-site-branding" href="index.html">
+          <img class="c-site-branding__logo" src="assets/images/Twilightbloom.png" alt="Twilightbloom">
+          <h1 class="c-site-branding__title">Twilightbloom&nbsp;<small class="u-color-grey-400">BETA</small></h1></a>
         </div><!-- End - branding -->
 
-        <div class="l-site-header__action">
-          <a class="c-button c-button--danger" href="#"><i class="fas fa-star"></i><span class="u-hidden-lg-max">&nbsp;CTA Button</span></a>
+        <div class="l-site-header__action l-flex__item l-flex__order-2 l-flex__order-lg-3 l-flex l-flex--col l-flex--row-md l-flex--jus-center l-gap-20 u-hidden-lg-max">
+          <div class="l-gap__item"><a class="c-button c-button--light" href="https://github.com/jackryanoracoy/twilightbloom">GitHub</a></div>
+          <div class="l-gap__item"><a class="c-button c-button--danger" href="https://www.patreon.com/jackro">寄付する</a></div>
         </div><!-- End - cta -->
 
-        <div class="l-site-header__menu u-hidden-lg-min">
+        <div class="l-site-header__menu l-flex__item u-hidden-lg-min">
           <a class="c-site-menu" href="javascript:void(0)"><span class="c-site-menu__box"><span class="c-site-menu__inner"></span></span></a>
         </div><!-- End - menu -->
 
-      </div><!-- End - content -->
-
-      <div class="l-site-header__content u-background-secondary">
-
-        <nav class="l-site-header__navigation">
+        <nav class="l-site-header__navigation l-flex__item-12 l-flex__item-lg l-flex__shrink-lg l-flex__order-3 l-flex__order-lg-2">
           <ul class="c-site-nav">
-            <li class="c-site-nav__item c-site-nav__item--active"><a href="index.html">Home</a></li>
-            <li class="c-site-nav__item"><a href="#">Nav link one</a></li>
-            <li class="c-site-nav__item"><a href="#">Nav link two</a></li>
-            <li class="c-site-nav__item"><a href="#">Nav link three</a></li>
+            <li class="c-site-nav__item"><a href="#start">はじめに</a></li>
+            <li class="c-site-nav__item"><a href="#method">方法論</a></li>
+            <li class="c-site-nav__item"><a href="#sample">サンプル</a></li>
+            <li class="c-site-nav__item"><a href="#include">パッケージ</a></li>
+            <li class="c-site-nav__item"><a href="#new">新機能</a></li>
           </ul><!-- End - site-nav -->
         </nav><!-- End - navigation -->
 
@@ -105,7 +85,7 @@
       <article class="l-site-content">
 
         <!-- This heading is for screen reader -->
-        <h6 class="sr-only">Moonshine (Title For Screen Readers)</h6>
+        <h6 class="sr-only">Twilightbloom (Title For Screen Readers)</h6>
 
         <div class="l-container">
           <section class="l-section">
@@ -172,11 +152,15 @@
 
       <div class="u-background-grey-200">
         <div class="l-container">
-          <section class="l-section l-section--padding-narrow">
+          <div class="l-section l-section--padding-narrow">
 
-            <h5 class="u-text-center">EXTENDED FOOTER</h5>
+            <ul class="u-list l-flex l-flex--jus-center l-gap-10">
+              <li class="l-gap__item"><a href="https://github.com/jackryanoracoy/"><i class="fab fa-github"></i>&nbsp;GitHub</a></li>
+              <li class="l-gap__item"><a href="https://www.facebook.com/JackRyanOracoy"><i class="fab fa-facebook"></i>&nbsp;Facebook</a></li>
+              <li class="l-gap__item"><a href="https://twitter.com/JackRyanOracoy"><i class="fab fa-twitter"></i>&nbsp;Twitter</a></li>
+            </ul>
 
-          </section><!-- End - section -->
+          </div><!-- End - section -->
         </div><!-- End - container -->
       </div><!-- End - ext-footer -->
 
@@ -184,7 +168,7 @@
         <div class="l-container">
           <section class="l-section l-section--padding-narrow">
 
-            <h5 class="u-text-center u-font-small u-font-medium-lg">&copy; 2019 - SITE TITLE</h5>
+            <h5 class="u-text-center u-font-small u-font-medium-md">Twilightbloom v1.5.4 - Licensed <a href="https://github.com/jackryanoracoy/twilightbloom/blob/master/LICENSE.txt">MIT</a>, <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></h5>
 
           </section><!-- End - section -->
         </div><!-- End - container -->
@@ -192,37 +176,25 @@
 
     </footer><!-- End - site-footer -->
 
-
-    <!-- Addon Cascading Style Sheets -->
-    <link rel="stylesheet" type="text/css" media="all" href="addon/fontawesome/css/all.min.css">
-
     <!-- Essential Javascripts -->
     <script src="scripts/jquery-3.4.1.min.js"></script>
-    <script async src="scripts/modernizr-3.7.1.min.js"></script>
     <script async src="scripts/object-fit-images-3.2.3.min.js"></script>
     <script async src="scripts/script.js"></script>
 
-    <!-- Addon Javascripts -->
-    <script defer src="addon/fontawesome/js/all.js"></script>
+    <!-- <pre><code> -->
+    <script>
+    $("pre code").each(function(){
+      var html = $(this).html();
+      var pattern = html.match(/\s*\n[\t\s]*/);
+      $(this).html(html.replace(new RegExp(pattern, "g"),'\n'));
+    });
+    </script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script async src="https://www.google-analytics.com/analytics.js"></script>
     <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-    </script>
-
-    <!-- Service Worker -->
-    <script>
-    if ("serviceWorker" in navigator) {
-      if (navigator.serviceWorker.controller) {
-        console.log("Service Worker: Active service worker found, no need to register");
-      } else {
-        navigator.serviceWorker
-        .register("service-worker.js", { scope: "./" })
-        .then(function (reg) { console.log("Service Worker: Service worker has been registered for scope: " + reg.scope); });
-      }
-    }
     </script>
 
     <!-- No Script -->
