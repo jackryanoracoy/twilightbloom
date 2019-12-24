@@ -20,6 +20,7 @@
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
+
 @media print {
   *,
   *:before,
@@ -70,19 +71,23 @@ body {
   font-size: 1.4rem;
   font-family: inherit;
 }
+
 body ::-webkit-scrollbar {
   width: 5px;
   height: 5px;
   background-color: #E0E0E0;
 }
+
 body ::-webkit-scrollbar-thumb {
   background-color: #BDBDBD;
 }
+
 @media (min-width: 768px) {
   body {
     font-size: 1.6rem;
   }
 }
+
 @media print {
   body {
     font-family: inherit;
@@ -104,6 +109,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 @media print {
   table thead {
     display: table-header-group;
@@ -192,6 +198,7 @@ sup {
 img {
   border-style: none;
 }
+
 @media print {
   img {
     page-break-inside: avoid;
@@ -366,10 +373,12 @@ a {
   color: #880E4F;
   text-decoration: none;
 }
+
 a:hover, a:visited, a:active, a:focus {
   color: #C51162;
   text-decoration: underline;
 }
+
 @media print {
   a, a:visited {
     text-decoration: underline;
@@ -409,10 +418,8 @@ pre {
     orphans: 3;
     widows: 3;
   }
-
   h2, h3 {
     page-break-after: avoid;
   }
 }
-
 /*# sourceMappingURL=base.css.map */

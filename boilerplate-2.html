@@ -35,15 +35,15 @@
 
       <div class="l-site-header__content u-background-primary l-flex l-flex--jus-spbetween l-flex--alt-center">
 
-        <div class="l-site-header__branding">
+        <div class="l-site-header__branding l-flex__item">
           <a class="c-site-branding" href="index.html"><h1 class="c-site-branding__title">SITE TITLE</h1></a>
         </div><!-- End - branding -->
 
-        <div class="l-site-header__action">
-          <a class="c-button c-button--danger" href="#"><i class="fas fa-star"></i><span class="u-hidden-lg-max">&nbsp;CTA Button</span></a>
+        <div class="l-site-header__action l-flex__item">
+          <a class="c-button c-button--danger" href="#">CTA Button</span></a>
         </div><!-- End - cta -->
 
-        <div class="l-site-header__menu u-hidden-lg-min">
+        <div class="l-site-header__menu l-flex__item u-hidden-lg-min">
           <a class="c-site-menu" href="javascript:void(0)"><span class="c-site-menu__box"><span class="c-site-menu__inner"></span></span></a>
         </div><!-- End - menu -->
 
@@ -74,7 +74,7 @@
             <section class="l-section l-section--padding-narrow">
 
               <h2 class="c-heading-above-the-fold u-mar-bottom-20">ABOVE THE FOLD (ATF)</h2>
-              <a class="c-button" href="#">ATF Button&nbsp;<i class="fas fa-chevron-right"></i></a>
+              <a class="c-button" href="#">ATF Button</a>
 
             </section><!-- End - section -->
           </div><!-- End - flex content -->
@@ -172,37 +172,16 @@
 
     </footer><!-- End - site-footer -->
 
-
-    <!-- Addon Cascading Style Sheets -->
-    <link rel="stylesheet" type="text/css" media="all" href="addon/fontawesome/css/all.min.css">
-
     <!-- Essential Javascripts -->
     <script src="scripts/jquery-3.4.1.min.js"></script>
-    <script async src="scripts/modernizr-3.7.1.min.js"></script>
     <script async src="scripts/object-fit-images-3.2.3.min.js"></script>
     <script async src="scripts/script.js"></script>
-
-    <!-- Addon Javascripts -->
-    <script defer src="addon/fontawesome/js/all.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script async src="https://www.google-analytics.com/analytics.js"></script>
     <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-    </script>
-
-    <!-- Service Worker -->
-    <script>
-    if ("serviceWorker" in navigator) {
-      if (navigator.serviceWorker.controller) {
-        console.log("Service Worker: Active service worker found, no need to register");
-      } else {
-        navigator.serviceWorker
-        .register("service-worker.js", { scope: "./" })
-        .then(function (reg) { console.log("Service Worker: Service worker has been registered for scope: " + reg.scope); });
-      }
-    }
     </script>
 
     <!-- No Script -->

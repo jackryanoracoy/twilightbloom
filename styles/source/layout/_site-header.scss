@@ -52,6 +52,15 @@
       right: 10px;
       bottom: 10px;
     }
+
+    &__navigation {
+      position: absolute;
+      top: $header-height_m;
+      right: 0;
+      left: 0;
+      background-color: $secondary;
+      z-index: 9;
+    }
   }
 
   @media print {

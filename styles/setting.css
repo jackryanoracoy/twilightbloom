@@ -19,6 +19,7 @@
   font-weight: 300;
   src: url("../assets/fonts/Noto-Sans-Japanese-Light.woff2") format("woff2"), url("../assets/fonts/Noto-Sans-Japanese-Light.woff") format("woff");
 }
+
 @font-face {
   font-family: "Noto Sans JP";
   font-display: auto;
@@ -26,6 +27,7 @@
   font-weight: 400;
   src: url("../assets/fonts/Noto-Sans-Japanese.woff2") format("woff2"), url("../assets/fonts/Noto-Sans-Japanese.woff") format("woff");
 }
+
 @font-face {
   font-family: "Noto Sans JP";
   font-display: auto;
@@ -33,6 +35,7 @@
   font-weight: 700;
   src: url("../assets/fonts/Noto-Sans-Japanese-Bold.woff2") format("woff2"), url("../assets/fonts/Noto-Sans-Japanese-Bold.woff") format("woff");
 }
+
 /*--------------------------------------------------------------
  Custom Properties (CSS Varialbles)
 --------------------------------------------------------------*/
@@ -84,5 +87,4 @@
   --font-family-sans-serif: "Noto Sans JP", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "游ゴシック", "游ゴシック体", YuGothic, "Yu Gothic", "メイリオ", Meiryo, "ＭＳ ゴシック", "MS Gothic", HiraKakuProN-W3, "TakaoExゴシック", TakaoExGothic, "MotoyaLCedar", "Droid Sans Japanese", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-
 /*# sourceMappingURL=setting.css.map */

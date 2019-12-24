@@ -12,10 +12,9 @@
 --------------------------------------------------*/
 
 .l-site-atf {
-  height: 480px;
+  height: 300px;
 
   @include media-breakpoint-min(lg) {
-    height: calc(100vh - #{$header-height + $nav-height});
-    max-height: 1000px;
+    height: calc(500px);
   }
 }

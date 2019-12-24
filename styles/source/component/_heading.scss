@@ -13,11 +13,11 @@
 
 .c-heading-above-the-fold {
   color: $primary;
-  font-size: $font-sl;
+  font-size: $font-lg;
   letter-spacing: 0.5rem;
 
   @include media-breakpoint-min(lg) {
-    font-size: $font-ml;
+    font-size: $font-sl;
   }
 }
 
