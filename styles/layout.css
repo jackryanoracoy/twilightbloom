@@ -3419,22 +3419,14 @@
 --------------------------------------------------*/
 .l-site-content {
   position: relative;
-  background-color: #FAFAFA;
 }
 
 /*--------------------------------------------------
-  site aside
+  Site-navigation
 --------------------------------------------------*/
-.l-site-aside {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 100px;
-}
-
-@media (min-width: 992px) {
-  .l-site-aside {
-    max-height: calc(100vh - (75px + 50px));
-    overflow: auto;
-  }
+.l-site-navigation {
+  position: relative;
+  width: 230px;
+  background-color: #C51162;
 }
 /*# sourceMappingURL=layout.css.map */

@@ -1,19 +1,22 @@
 # Twilightbloom
   
-Twilightbloom (Front-end Web Development Boilerplate) - A Simple yet Scalable and Maintainable Architecture.  
+Twilightbloom（フロントエンドWeb開発テンプレート）-シンプルだがスケーラブルで保守可能なアーキテクチャ。
   
   
 ## Getting Started  
 
-Get started with Twilightbloom, a scalable and maintainable architecture for building responsive, mobile-first web apps or sites.  
-Twilightbloom helps you build not only fast but scalable and maintainable web apps or sites. With Twilightbloom you have a package that is built with the combined knowledge and effort of some great developers, from their methodology, codes, packages, etc...  
+TWILIGHTBOOMを始めましょう。  
+レスポンシブなモバイルファーストWebアプリまたはサイトを構築するための、シンプルでありながらスケーラブルで保守可能なアーキテクチャ。  
+Twilightbloomは、高速であるだけでなく、スケーラブルで保守可能なWebアプリまたはサイトの構築を支援します。  「Twilightbloom」を使用すると、方法論、コード、パッケージなど、開発者の最高の知識と労力で構築されたパッケージを取得できます。  
+
+Twilightbloomを使用してプロジェクトを開始する準備はできましたか？[パッケージをダウンロードします。](https://jackryanoracoy.github.io/twilightbloom)  
+必ず最新の設計および開発標準でページをセットアップしてください。 つまり、HTML5 Doctypeを使用し、適切な応答動作のためにビューポートメタタグを含めることを意味します。 または、パッケージに含まれる「boilerplate.html」を使用できます。  
   
-Ready to kick-start your project using Twilightbloom? [Read the documentation page](https://jackryanoracoy.github.io/twilightbloom).  
-Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Or you can use our boilerplate.html included in the package.  
+Note: This is translated using Google Translate. This may be wierd to read and the message may be incorrect, if you want to help with this documentation please email me. Thank you!  
   
 ### Content  
   
-Discover what’s included in the package. Once downloaded, unzip the compressed folder and you’ll see something similar to this:  
+パッケージに含まれるものを見つけます。 ダウンロードしたら、圧縮フォルダを解凍すると、次のようなものが表示されます。  
   
 ```
 Twilightbloom/
@@ -69,13 +72,13 @@ Twilightbloom/
 ├── 404.html
 ├── boilerplate.html
 ├── index.html
-└── robots.js
+└── robots.txt
 ```
   
 ### Theming  
   
-Customize Twilightbloom with CSS variables or SASS variables for global style preferences for easy theming and component changes.
-Here are the CSS variables we include (note that the :root is required). For more info, please check settings.css or the scss code base (mixins, variables etc...).
+テーマやコンポーネントを簡単に変更できるように、グローバルスタイル設定用にCSS変数またはSASS変数で「Twilightbloom」をカスタマイズします。  
+含めるCSS変数は次のとおりです。「：root」が必要であることに注意してください。 詳細については、「settings.css」または「scss」コードベース（ミックスイン、変数など）を確認してください。  
   
 ```
 :root {
@@ -131,8 +134,8 @@ Here are the CSS variables we include (note that the :root is required). For mor
   
 ### Breakpoints  
   
-Twilightbloom use a handful of media queries to create sensible breakpoints for layouts and interfaces. 
-These breakpoints are mostly based on minimum viewport widths and allow us to scale up elements as the viewport changes.  
+Twilightbloomは、いくつかのメディアクエリを使用して、レイアウトとインターフェイスの賢明なブレークポイントを作成します。  
+これらのブレークポイントは主に最小ビューポート幅に基づいており、ビューポートの変更に応じて要素を拡大できます。  
   
 ```
 // Small devices (576px and up)
@@ -150,9 +153,8 @@ These breakpoints are mostly based on minimum viewport widths and allow us to sc
   
 ### Accessibility  
   
-Content which should be visually hidden,
-but remain accessible to assistive technologies such as screen readers, can be styled using the .sr-only class.
-This will ensure that the control becomes visible once focused (for sighted keyboard users).  
+視覚的には非表示にする必要がありますが、スクリーンリーダーなどの支援技術からはアクセス可能なコンテンツは、「.sr-only」クラスを使用してスタイル設定できます。  
+これにより、コントロールがフォーカスされると表示されるようになります。  
   
 ```
 <p class="text-danger">
@@ -161,7 +163,7 @@ This will ensure that the control becomes visible once focused (for sighted keyb
 </p>
 ```
   
-For visually hidden interactive controls, such as traditional “skip” links, .sr-only can be combined with the .sr-only--focusable class. This will ensure that the control becomes visible once focused (for sighted keyboard users).  
+従来の「スキップ」リンクなど、視覚的に隠されたインタラクティブコントロールの場合、 「.sr-only」を「.sr-only--focusable」クラスと組み合わせることができます。これにより、コントロールがフォーカスされるとコントロールが表示されるようになります。  
   
 ```
 <a class="sr-only sr-only--focusable" href="#site-content">Skip to main content</a>
@@ -172,13 +174,13 @@ Note: To extend template's accessibility please see [WAI-ARIA](https://www.w3.or
   
 ## CSS Methodologies  
   
-Organize project files that can better deal with CSS specifics like global namespace, cascade and selectors specificity.  
-Shares the same methodology of some popular methodologies like ITCSS, BEM, SMACSS and OOCSS.  
-This approach is to ensure everyone who participates in the development of a website works with a single codebase and speaks the same language.  
+グローバル名前空間、カスケード、セレクターの特異性など、CSSの特性をより適切に処理できるプロジェクトファイルを整理します。  
+「ITCSS」、「BEM」、「SMACSS」、「OOCSS」などのいくつかの一般的な方法論と同じ方法論を共有します。  
+このアプローチは、Webサイトの開発に参加するすべての人が単一のコードベースで作業し、同じ言語を話せるようにすることです。  
   
 ### Separated CSS codebase  
   
-Separate CSS codebase to several sections, similar below:  
+CSSコードベースをいくつかのセクションに分離します。これにより、「グローバル名前空間」、「カスケード」、「セレクターの特異性」などの「CSSの特性」をより適切に処理できるプロジェクトファイルを整理できます。  
   
 setting.css - contains custom properties (css variables), font-face, etc.  
 base.css - reset and/or normalize styles, box-sizing definition, etc.  
@@ -223,22 +225,10 @@ Twilightbloom/
     └── utility.css.map
 ```
   
-Basic CSS  
-  
-```
-Twilightbloom/
-└── styles/
-    ├── base.css
-    ├── component.css
-    ├── layout.css
-    ├── setting.css
-    ├── utility.css
-    └── style.css
-```  
   
 ### Naming Convention 
   
-Highly useful, powerful, and simple naming convention that makes your front-end code easier to read and understand, easier to work with, easier to scale, more robust and explicit, and a lot more strict.  
+フロントエンドコードを読みやすく、理解しやすく、操作しやすく、スケーリングしやすくする、非常に便利で強力かつシンプルな命名規則。 より堅牢で明示的で、より厳密です。  
   
 prefix - (u) utility, (l) layout, (c) component, and (js) javascript related classes.  
 name - preferred class/object name.  
@@ -290,7 +280,7 @@ Import order:
   
 ## Includes  
   
-Some great works that are included in this template.  
+Twilightbloomに含まれているいくつかの素晴らしい作品。
    
 * [jQuery (v3.4.1)](https://jquery.com/)  
 * [Object-Fit Images (v3.2.3)](https://github.com/fregante/object-fit-images/)  

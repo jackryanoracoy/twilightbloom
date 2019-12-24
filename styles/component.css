@@ -410,6 +410,12 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .c-site-nav--alt {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 /*--------------------------------------------------

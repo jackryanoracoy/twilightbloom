@@ -39,5 +39,7 @@
 
   @include media-breakpoint-min(lg) {
     flex-direction: row;
+
+    &--alt { flex-direction: column; }
   }
 }
