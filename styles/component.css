@@ -133,7 +133,6 @@
   line-height: 35px;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
   border-radius: 2px;
   background-color: #880E4F;
   -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 4px 0 rgba(0, 0, 0, 0.15);
@@ -261,7 +260,7 @@
   Heading
 --------------------------------------------------*/
 .c-heading-above-the-fold {
-  color: #880E4F;
+  color: #FAFAFA;
   font-size: 1.8rem;
   letter-spacing: 0.5rem;
 }

@@ -44,14 +44,14 @@
 
       <div class="l-site-header__content u-background-primary l-flex l-flex--wrp-no l-flex--jus-spbetween l-flex--alt-center">
 
-        <div class="l-site-header__branding l-flex__item l-flex__item-lg-4 l-flex__shrink-lg">
+        <div class="l-site-header__branding l-flex__item l-flex__item-lg-4 l-flex__item-xl l-flex__shrink-lg">
           <a class="c-site-branding" href="index.html">
           <img class="c-site-branding__logo u-hidden-xs-max" src="assets/images/twilightbloom.png" alt="Twilightbloom">
           <h1 class="c-site-branding__title">Twilightbloom&nbsp;<small class="u-color-grey-400 u-hidden-xs-max">BETA</small></h1></a>
         </div><!-- End - branding -->
 
         <div class="l-site-header__action l-flex__item l-flex__order-2 l-flex__order-lg-3 l-flex l-flex--col l-flex--row-md l-flex--jus-center l-gap-20 u-hidden-lg-max">
-          <div class="l-gap__item"><a class="c-button c-button--light" href="https://github.com/jackryanoracoy/twilightbloom">GitHub</a></div>
+          <div class="l-gap__item"><a class="c-button c-button--light" href="https://github.com/jackryanoracoy/twilightbloom">GITHUB</a></div>
           <div class="l-gap__item"><a class="c-button c-button--danger" href="https://www.patreon.com/jackro">寄付する</a></div>
         </div><!-- End - cta -->
 
@@ -76,20 +76,26 @@
 
     <main class="l-site-main">
 
-      <div class="l-site-atf u-background-grey-200">
+      <div class="l-site-atf l-parallax u-background-grey-200">
 
         <div class="l-container l-flex l-flex--alt-center u-height-100">
           <div class="l-flex__item-12">
             <section class="l-section l-section--padding-narrow">
 
               <h2 class="c-heading-above-the-fold u-mar-bottom-20">Twilightbloom<br class="u-hidden-xs-min">を始めましょう、<br>今すぐダウンロード！</h2>
-              <a class="c-button" href="#">ダウンロード</i></a>
+              <a class="c-button c-button--dark" href="https://github.com/jackryanoracoy/twilightbloom/releases">をダウンロード</i></a>
 
             </section><!-- End - section -->
           </div><!-- End - flex content -->
         </div><!-- End - container -->
 
-      </div><!-- End - site-atf -->
+        <picture>
+          <source media="(min-width: 992px)" srcset="assets/images/image-above-the-fold@2x.jpg 2x, assets/images/image-above-the-fold.jpg">
+          <source media="(max-width: 991px)" srcset="assets/images/image-above-the-fold_m@2x.jpg 2x, assets/images/image-above-the-fold_m.jpg">
+          <img class="l-parallax__image" data-speed="-1" src="assets/images/image-above-the-fold.jpg" alt="Parallax Image">
+        </picture><!-- End - parallax image -->
+
+      </div><!-- End - site-atf, parallax -->
 
       <article class="l-site-content">
 
@@ -109,7 +115,7 @@
 
                 <p class="u-text-justify u-mar-bottom-40">Twilightbloomを使用してプロジェクトを開始する準備はできましたか？ <a href="https://github.com/jackryanoracoy/twilightbloom/releases">パッケージをダウンロードします。</a>
                 <br>必ず最新の設計および開発標準でページをセットアップしてください。 つまり、HTML5 Doctypeを使用し、適切な応答動作のためにビューポートメタタグを含めることを意味します。 または、パッケージに含まれる<code class="u-color-danger">「boilerplate.html」</code>を使用できます。</p>
-                
+
                 <p class="l-flex l-flex--wrp-no u-font-small c-highlight c-highlight--grey">
                 <span>NOTE:&emsp;</span>
                 <span>This is translated using Google Translate. This may be wierd to read and the message may be incorrect, if you want to help with this documentation please email me. Thank you!</span></p>
