@@ -13,6 +13,14 @@
 
 .l-site-navigation {
   position: relative;
-  width: 230px;
+  max-height: 0;
   background-color: $secondary;
+  overflow: hidden;
+  transition: $transition;
+
+  &.js-show { max-height: 100vh; }
+
+  @include media-breakpoint-min(lg) {
+    max-height: 100vh;
+  }
 }
