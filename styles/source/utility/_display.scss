@@ -8,8 +8,9 @@
 // License:  https://github.com/jackryanoracoy/twilightbloom/blob/master/LICENSE.txt
 
 /*--------------------------------------------------
-  Image
+  Disyplay
 --------------------------------------------------*/
 
-.u-image-fluid { max-width: 100%; }
-.u-image-crispt { @include img-render-crisp(); }
+.u-display-inline { display: inline; }
+.u-display-block { display: block; }
+.u-display-inline-block { display: inline-block; }

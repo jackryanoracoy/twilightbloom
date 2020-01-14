@@ -1,13 +1,13 @@
 @charset "UTF-8";
 /*!
- * Moonshine
+ * Twilightbloom
  * Scalable and Maintainable Architecture.
  *
  * Author:   Jack Ryan Oracoy
  * Website:  https://jackryanoracoy.github.io
  * Email:    jackryanoracoy@gmail.com
- * URL:      https://github.com/jackryanoracoy/moonshine
- * License:  https://github.com/jackryanoracoy/moonshine/blob/master/LICENSE.txt
+ * URL:      https://github.com/jackryanoracoy/twilightbloom
+ * License:  https://github.com/jackryanoracoy/twilightbloom/blob/master/LICENSE.txt
  */
 /*--------------------------------------------------------------
  font-face
@@ -4410,6 +4410,21 @@ pre {
   content: "";
   display: block;
   clear: both;
+}
+
+/*--------------------------------------------------
+  Disyplay
+--------------------------------------------------*/
+.u-display-inline {
+  display: inline;
+}
+
+.u-display-block {
+  display: block;
+}
+
+.u-display-inline-block {
+  display: inline-block;
 }
 
 /*--------------------------------------------------
@@ -13088,10 +13103,6 @@ pre {
 --------------------------------------------------*/
 .u-image-fluid {
   max-width: 100%;
-}
-
-.u-image-block {
-  display: block;
 }
 
 .u-image-crispt {
