@@ -58,7 +58,7 @@ html {
   outline: 1px dotted #00BCD4;
 }
 
-body:not(.tab-used) *:focus {
+body:not(.js-tab-used) *:focus {
   outline: none;
 }
 

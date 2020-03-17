@@ -25,7 +25,7 @@
   word-wrap: normal !important;
 }
 
-.sr-only--focusable:active, .sr-only--focusable:focus {
+.sr-only.is-focusable:active, .sr-only.is-focusable:focus {
   position: static;
   width: auto;
   height: auto;
@@ -46,15 +46,15 @@
 /*--------------------------------------------------
   Disyplay
 --------------------------------------------------*/
-.u-display-inline {
+.u-inline {
   display: inline;
 }
 
-.u-display-block {
+.u-block {
   display: block;
 }
 
-.u-display-inline-block {
+.u-inline-block {
   display: inline-block;
 }
 
@@ -6892,13 +6892,13 @@
   Object-fit
 --------------------------------------------------*/
 .u-object-fit {
-  -o-object-fit: inherit;
-     object-fit: inherit;
   width: 100%;
   height: 100%;
+  -o-object-fit: inherit;
+     object-fit: inherit;
 }
 
-.u-object-fit--contain {
+.u-object-fit.is-contain {
   -o-object-fit: contain;
      object-fit: contain;
   -o-object-position: center;
@@ -6906,7 +6906,7 @@
   font-family: "object-fit: contain; object-position: center;";
 }
 
-.u-object-fit--cover {
+.u-object-fit.is-cover {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -6914,7 +6914,7 @@
   font-family: "object-fit: cover; object-position: center;";
 }
 
-.u-object-fit--fill {
+.u-object-fit.is-fill {
   -o-object-fit: fill;
      object-fit: fill;
   -o-object-position: center;
@@ -6922,7 +6922,7 @@
   font-family: "object-fit: fill; object-position: center;";
 }
 
-.u-object-fit--scale_down {
+.u-object-fit.is-scale_down {
   -o-object-fit: scale-down;
      object-fit: scale-down;
   -o-object-position: center;
@@ -6930,7 +6930,7 @@
   font-family: "object-fit: scale-down; object-position: center;";
 }
 
-.u-object-fit--contain-top {
+.u-object-fit.is-contain-top {
   -o-object-fit: contain;
      object-fit: contain;
   -o-object-position: top;
@@ -6938,7 +6938,7 @@
   font-family: "object-fit: contain; object-position: top;";
 }
 
-.u-object-fit--cover-top {
+.u-object-fit.is-cover-top {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: top;
@@ -6946,7 +6946,7 @@
   font-family: "object-fit: cover; object-position: top;";
 }
 
-.u-object-fit--fill-top {
+.u-object-fit.is-fill-top {
   -o-object-fit: fill;
      object-fit: fill;
   -o-object-position: top;
@@ -6954,7 +6954,7 @@
   font-family: "object-fit: fill; object-position: top;";
 }
 
-.u-object-fit--scale_down-top {
+.u-object-fit.is-scale_down-top {
   -o-object-fit: scale-down;
      object-fit: scale-down;
   -o-object-position: top;
@@ -6962,7 +6962,7 @@
   font-family: "object-fit: scale-down; object-position: top;";
 }
 
-.u-object-fit--contain-right {
+.u-object-fit.is-contain-right {
   -o-object-fit: contain;
      object-fit: contain;
   -o-object-position: right;
@@ -6970,7 +6970,7 @@
   font-family: "object-fit: contain; object-position: right;";
 }
 
-.u-object-fit--cover-right {
+.u-object-fit.is-cover-right {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: right;
@@ -6978,7 +6978,7 @@
   font-family: "object-fit: cover; object-position: right;";
 }
 
-.u-object-fit--fill-right {
+.u-object-fit.is-fill-right {
   -o-object-fit: fill;
      object-fit: fill;
   -o-object-position: right;
@@ -6986,7 +6986,7 @@
   font-family: "object-fit: fill; object-position: right;";
 }
 
-.u-object-fit--scale_down-right {
+.u-object-fit.is-scale_down-right {
   -o-object-fit: scale-down;
      object-fit: scale-down;
   -o-object-position: right;
@@ -6994,7 +6994,7 @@
   font-family: "object-fit: scale-down; object-position: right;";
 }
 
-.u-object-fit--contain-bottom {
+.u-object-fit.is-contain-bottom {
   -o-object-fit: contain;
      object-fit: contain;
   -o-object-position: bottom;
@@ -7002,7 +7002,7 @@
   font-family: "object-fit: contain; object-position: bottom;";
 }
 
-.u-object-fit--cover-bottom {
+.u-object-fit.is-cover-bottom {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: bottom;
@@ -7010,7 +7010,7 @@
   font-family: "object-fit: cover; object-position: bottom;";
 }
 
-.u-object-fit--fill-bottom {
+.u-object-fit.is-fill-bottom {
   -o-object-fit: fill;
      object-fit: fill;
   -o-object-position: bottom;
@@ -7018,7 +7018,7 @@
   font-family: "object-fit: fill; object-position: bottom;";
 }
 
-.u-object-fit--scale_down-bottom {
+.u-object-fit.is-scale_down-bottom {
   -o-object-fit: scale-down;
      object-fit: scale-down;
   -o-object-position: bottom;
@@ -7026,7 +7026,7 @@
   font-family: "object-fit: scale-down; object-position: bottom;";
 }
 
-.u-object-fit--contain-left {
+.u-object-fit.is-contain-left {
   -o-object-fit: contain;
      object-fit: contain;
   -o-object-position: left;
@@ -7034,7 +7034,7 @@
   font-family: "object-fit: contain; object-position: left;";
 }
 
-.u-object-fit--cover-left {
+.u-object-fit.is-cover-left {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: left;
@@ -7042,7 +7042,7 @@
   font-family: "object-fit: cover; object-position: left;";
 }
 
-.u-object-fit--fill-left {
+.u-object-fit.is-fill-left {
   -o-object-fit: fill;
      object-fit: fill;
   -o-object-position: left;
@@ -7050,7 +7050,7 @@
   font-family: "object-fit: fill; object-position: left;";
 }
 
-.u-object-fit--scale_down-left {
+.u-object-fit.is-scale_down-left {
   -o-object-fit: scale-down;
      object-fit: scale-down;
   -o-object-position: left;
@@ -7058,154 +7058,158 @@
   font-family: "object-fit: scale-down; object-position: left;";
 }
 
-.u-object-fit--none {
+.u-object-fit.is-none {
+  width: auto;
+  height: auto;
   -o-object-fit: none;
      object-fit: none;
   font-family: "object-fit: none;";
 }
 
 @media (min-width: 410px) {
-  .u-object-fit--contain-xs {
+  .u-object-fit.is-contain-xs {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: contain; object-position: center;";
   }
-  .u-object-fit--cover-xs {
+  .u-object-fit.is-cover-xs {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: cover; object-position: center;";
   }
-  .u-object-fit--fill-xs {
+  .u-object-fit.is-fill-xs {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: fill; object-position: center;";
   }
-  .u-object-fit--scale_down-xs {
+  .u-object-fit.is-scale_down-xs {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: scale-down; object-position: center;";
   }
-  .u-object-fit--contain-top-xs {
+  .u-object-fit.is-contain-top-xs {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: contain; object-position: top;";
   }
-  .u-object-fit--cover-top-xs {
+  .u-object-fit.is-cover-top-xs {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: cover; object-position: top;";
   }
-  .u-object-fit--fill-top-xs {
+  .u-object-fit.is-fill-top-xs {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: fill; object-position: top;";
   }
-  .u-object-fit--scale_down-top-xs {
+  .u-object-fit.is-scale_down-top-xs {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: scale-down; object-position: top;";
   }
-  .u-object-fit--contain-right-xs {
+  .u-object-fit.is-contain-right-xs {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: contain; object-position: right;";
   }
-  .u-object-fit--cover-right-xs {
+  .u-object-fit.is-cover-right-xs {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: cover; object-position: right;";
   }
-  .u-object-fit--fill-right-xs {
+  .u-object-fit.is-fill-right-xs {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: fill; object-position: right;";
   }
-  .u-object-fit--scale_down-right-xs {
+  .u-object-fit.is-scale_down-right-xs {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: scale-down; object-position: right;";
   }
-  .u-object-fit--contain-bottom-xs {
+  .u-object-fit.is-contain-bottom-xs {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: contain; object-position: bottom;";
   }
-  .u-object-fit--cover-bottom-xs {
+  .u-object-fit.is-cover-bottom-xs {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: cover; object-position: bottom;";
   }
-  .u-object-fit--fill-bottom-xs {
+  .u-object-fit.is-fill-bottom-xs {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: fill; object-position: bottom;";
   }
-  .u-object-fit--scale_down-bottom-xs {
+  .u-object-fit.is-scale_down-bottom-xs {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: scale-down; object-position: bottom;";
   }
-  .u-object-fit--contain-left-xs {
+  .u-object-fit.is-contain-left-xs {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: contain; object-position: left;";
   }
-  .u-object-fit--cover-left-xs {
+  .u-object-fit.is-cover-left-xs {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: cover; object-position: left;";
   }
-  .u-object-fit--fill-left-xs {
+  .u-object-fit.is-fill-left-xs {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: fill; object-position: left;";
   }
-  .u-object-fit--scale_down-left-xs {
+  .u-object-fit.is-scale_down-left-xs {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: scale-down; object-position: left;";
   }
-  .u-object-fit--none-xs {
+  .u-object-fit.is-none-xs {
+    width: auto;
+    height: auto;
     -o-object-fit: none;
        object-fit: none;
     font-family: "object-fit: none;";
@@ -7213,147 +7217,149 @@
 }
 
 @media (min-width: 576px) {
-  .u-object-fit--contain-sm {
+  .u-object-fit.is-contain-sm {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: contain; object-position: center;";
   }
-  .u-object-fit--cover-sm {
+  .u-object-fit.is-cover-sm {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: cover; object-position: center;";
   }
-  .u-object-fit--fill-sm {
+  .u-object-fit.is-fill-sm {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: fill; object-position: center;";
   }
-  .u-object-fit--scale_down-sm {
+  .u-object-fit.is-scale_down-sm {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: scale-down; object-position: center;";
   }
-  .u-object-fit--contain-top-sm {
+  .u-object-fit.is-contain-top-sm {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: contain; object-position: top;";
   }
-  .u-object-fit--cover-top-sm {
+  .u-object-fit.is-cover-top-sm {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: cover; object-position: top;";
   }
-  .u-object-fit--fill-top-sm {
+  .u-object-fit.is-fill-top-sm {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: fill; object-position: top;";
   }
-  .u-object-fit--scale_down-top-sm {
+  .u-object-fit.is-scale_down-top-sm {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: scale-down; object-position: top;";
   }
-  .u-object-fit--contain-right-sm {
+  .u-object-fit.is-contain-right-sm {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: contain; object-position: right;";
   }
-  .u-object-fit--cover-right-sm {
+  .u-object-fit.is-cover-right-sm {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: cover; object-position: right;";
   }
-  .u-object-fit--fill-right-sm {
+  .u-object-fit.is-fill-right-sm {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: fill; object-position: right;";
   }
-  .u-object-fit--scale_down-right-sm {
+  .u-object-fit.is-scale_down-right-sm {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: scale-down; object-position: right;";
   }
-  .u-object-fit--contain-bottom-sm {
+  .u-object-fit.is-contain-bottom-sm {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: contain; object-position: bottom;";
   }
-  .u-object-fit--cover-bottom-sm {
+  .u-object-fit.is-cover-bottom-sm {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: cover; object-position: bottom;";
   }
-  .u-object-fit--fill-bottom-sm {
+  .u-object-fit.is-fill-bottom-sm {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: fill; object-position: bottom;";
   }
-  .u-object-fit--scale_down-bottom-sm {
+  .u-object-fit.is-scale_down-bottom-sm {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: scale-down; object-position: bottom;";
   }
-  .u-object-fit--contain-left-sm {
+  .u-object-fit.is-contain-left-sm {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: contain; object-position: left;";
   }
-  .u-object-fit--cover-left-sm {
+  .u-object-fit.is-cover-left-sm {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: cover; object-position: left;";
   }
-  .u-object-fit--fill-left-sm {
+  .u-object-fit.is-fill-left-sm {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: fill; object-position: left;";
   }
-  .u-object-fit--scale_down-left-sm {
+  .u-object-fit.is-scale_down-left-sm {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: scale-down; object-position: left;";
   }
-  .u-object-fit--none-sm {
+  .u-object-fit.is-none-sm {
+    width: auto;
+    height: auto;
     -o-object-fit: none;
        object-fit: none;
     font-family: "object-fit: none;";
@@ -7361,147 +7367,149 @@
 }
 
 @media (min-width: 768px) {
-  .u-object-fit--contain-md {
+  .u-object-fit.is-contain-md {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: contain; object-position: center;";
   }
-  .u-object-fit--cover-md {
+  .u-object-fit.is-cover-md {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: cover; object-position: center;";
   }
-  .u-object-fit--fill-md {
+  .u-object-fit.is-fill-md {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: fill; object-position: center;";
   }
-  .u-object-fit--scale_down-md {
+  .u-object-fit.is-scale_down-md {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: scale-down; object-position: center;";
   }
-  .u-object-fit--contain-top-md {
+  .u-object-fit.is-contain-top-md {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: contain; object-position: top;";
   }
-  .u-object-fit--cover-top-md {
+  .u-object-fit.is-cover-top-md {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: cover; object-position: top;";
   }
-  .u-object-fit--fill-top-md {
+  .u-object-fit.is-fill-top-md {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: fill; object-position: top;";
   }
-  .u-object-fit--scale_down-top-md {
+  .u-object-fit.is-scale_down-top-md {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: scale-down; object-position: top;";
   }
-  .u-object-fit--contain-right-md {
+  .u-object-fit.is-contain-right-md {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: contain; object-position: right;";
   }
-  .u-object-fit--cover-right-md {
+  .u-object-fit.is-cover-right-md {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: cover; object-position: right;";
   }
-  .u-object-fit--fill-right-md {
+  .u-object-fit.is-fill-right-md {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: fill; object-position: right;";
   }
-  .u-object-fit--scale_down-right-md {
+  .u-object-fit.is-scale_down-right-md {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: scale-down; object-position: right;";
   }
-  .u-object-fit--contain-bottom-md {
+  .u-object-fit.is-contain-bottom-md {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: contain; object-position: bottom;";
   }
-  .u-object-fit--cover-bottom-md {
+  .u-object-fit.is-cover-bottom-md {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: cover; object-position: bottom;";
   }
-  .u-object-fit--fill-bottom-md {
+  .u-object-fit.is-fill-bottom-md {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: fill; object-position: bottom;";
   }
-  .u-object-fit--scale_down-bottom-md {
+  .u-object-fit.is-scale_down-bottom-md {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: scale-down; object-position: bottom;";
   }
-  .u-object-fit--contain-left-md {
+  .u-object-fit.is-contain-left-md {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: contain; object-position: left;";
   }
-  .u-object-fit--cover-left-md {
+  .u-object-fit.is-cover-left-md {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: cover; object-position: left;";
   }
-  .u-object-fit--fill-left-md {
+  .u-object-fit.is-fill-left-md {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: fill; object-position: left;";
   }
-  .u-object-fit--scale_down-left-md {
+  .u-object-fit.is-scale_down-left-md {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: scale-down; object-position: left;";
   }
-  .u-object-fit--none-md {
+  .u-object-fit.is-none-md {
+    width: auto;
+    height: auto;
     -o-object-fit: none;
        object-fit: none;
     font-family: "object-fit: none;";
@@ -7509,147 +7517,149 @@
 }
 
 @media (min-width: 992px) {
-  .u-object-fit--contain-lg {
+  .u-object-fit.is-contain-lg {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: contain; object-position: center;";
   }
-  .u-object-fit--cover-lg {
+  .u-object-fit.is-cover-lg {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: cover; object-position: center;";
   }
-  .u-object-fit--fill-lg {
+  .u-object-fit.is-fill-lg {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: fill; object-position: center;";
   }
-  .u-object-fit--scale_down-lg {
+  .u-object-fit.is-scale_down-lg {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: scale-down; object-position: center;";
   }
-  .u-object-fit--contain-top-lg {
+  .u-object-fit.is-contain-top-lg {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: contain; object-position: top;";
   }
-  .u-object-fit--cover-top-lg {
+  .u-object-fit.is-cover-top-lg {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: cover; object-position: top;";
   }
-  .u-object-fit--fill-top-lg {
+  .u-object-fit.is-fill-top-lg {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: fill; object-position: top;";
   }
-  .u-object-fit--scale_down-top-lg {
+  .u-object-fit.is-scale_down-top-lg {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: scale-down; object-position: top;";
   }
-  .u-object-fit--contain-right-lg {
+  .u-object-fit.is-contain-right-lg {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: contain; object-position: right;";
   }
-  .u-object-fit--cover-right-lg {
+  .u-object-fit.is-cover-right-lg {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: cover; object-position: right;";
   }
-  .u-object-fit--fill-right-lg {
+  .u-object-fit.is-fill-right-lg {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: fill; object-position: right;";
   }
-  .u-object-fit--scale_down-right-lg {
+  .u-object-fit.is-scale_down-right-lg {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: scale-down; object-position: right;";
   }
-  .u-object-fit--contain-bottom-lg {
+  .u-object-fit.is-contain-bottom-lg {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: contain; object-position: bottom;";
   }
-  .u-object-fit--cover-bottom-lg {
+  .u-object-fit.is-cover-bottom-lg {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: cover; object-position: bottom;";
   }
-  .u-object-fit--fill-bottom-lg {
+  .u-object-fit.is-fill-bottom-lg {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: fill; object-position: bottom;";
   }
-  .u-object-fit--scale_down-bottom-lg {
+  .u-object-fit.is-scale_down-bottom-lg {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: scale-down; object-position: bottom;";
   }
-  .u-object-fit--contain-left-lg {
+  .u-object-fit.is-contain-left-lg {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: contain; object-position: left;";
   }
-  .u-object-fit--cover-left-lg {
+  .u-object-fit.is-cover-left-lg {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: cover; object-position: left;";
   }
-  .u-object-fit--fill-left-lg {
+  .u-object-fit.is-fill-left-lg {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: fill; object-position: left;";
   }
-  .u-object-fit--scale_down-left-lg {
+  .u-object-fit.is-scale_down-left-lg {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: scale-down; object-position: left;";
   }
-  .u-object-fit--none-lg {
+  .u-object-fit.is-none-lg {
+    width: auto;
+    height: auto;
     -o-object-fit: none;
        object-fit: none;
     font-family: "object-fit: none;";
@@ -7657,147 +7667,149 @@
 }
 
 @media (min-width: 1200px) {
-  .u-object-fit--contain-xl {
+  .u-object-fit.is-contain-xl {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: contain; object-position: center;";
   }
-  .u-object-fit--cover-xl {
+  .u-object-fit.is-cover-xl {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: cover; object-position: center;";
   }
-  .u-object-fit--fill-xl {
+  .u-object-fit.is-fill-xl {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: fill; object-position: center;";
   }
-  .u-object-fit--scale_down-xl {
+  .u-object-fit.is-scale_down-xl {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: center;
        object-position: center;
     font-family: "object-fit: scale-down; object-position: center;";
   }
-  .u-object-fit--contain-top-xl {
+  .u-object-fit.is-contain-top-xl {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: contain; object-position: top;";
   }
-  .u-object-fit--cover-top-xl {
+  .u-object-fit.is-cover-top-xl {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: cover; object-position: top;";
   }
-  .u-object-fit--fill-top-xl {
+  .u-object-fit.is-fill-top-xl {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: fill; object-position: top;";
   }
-  .u-object-fit--scale_down-top-xl {
+  .u-object-fit.is-scale_down-top-xl {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: top;
        object-position: top;
     font-family: "object-fit: scale-down; object-position: top;";
   }
-  .u-object-fit--contain-right-xl {
+  .u-object-fit.is-contain-right-xl {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: contain; object-position: right;";
   }
-  .u-object-fit--cover-right-xl {
+  .u-object-fit.is-cover-right-xl {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: cover; object-position: right;";
   }
-  .u-object-fit--fill-right-xl {
+  .u-object-fit.is-fill-right-xl {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: fill; object-position: right;";
   }
-  .u-object-fit--scale_down-right-xl {
+  .u-object-fit.is-scale_down-right-xl {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: right;
        object-position: right;
     font-family: "object-fit: scale-down; object-position: right;";
   }
-  .u-object-fit--contain-bottom-xl {
+  .u-object-fit.is-contain-bottom-xl {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: contain; object-position: bottom;";
   }
-  .u-object-fit--cover-bottom-xl {
+  .u-object-fit.is-cover-bottom-xl {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: cover; object-position: bottom;";
   }
-  .u-object-fit--fill-bottom-xl {
+  .u-object-fit.is-fill-bottom-xl {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: fill; object-position: bottom;";
   }
-  .u-object-fit--scale_down-bottom-xl {
+  .u-object-fit.is-scale_down-bottom-xl {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: bottom;
        object-position: bottom;
     font-family: "object-fit: scale-down; object-position: bottom;";
   }
-  .u-object-fit--contain-left-xl {
+  .u-object-fit.is-contain-left-xl {
     -o-object-fit: contain;
        object-fit: contain;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: contain; object-position: left;";
   }
-  .u-object-fit--cover-left-xl {
+  .u-object-fit.is-cover-left-xl {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: cover; object-position: left;";
   }
-  .u-object-fit--fill-left-xl {
+  .u-object-fit.is-fill-left-xl {
     -o-object-fit: fill;
        object-fit: fill;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: fill; object-position: left;";
   }
-  .u-object-fit--scale_down-left-xl {
+  .u-object-fit.is-scale_down-left-xl {
     -o-object-fit: scale-down;
        object-fit: scale-down;
     -o-object-position: left;
        object-position: left;
     font-family: "object-fit: scale-down; object-position: left;";
   }
-  .u-object-fit--none-xl {
+  .u-object-fit.is-none-xl {
+    width: auto;
+    height: auto;
     -o-object-fit: none;
        object-fit: none;
     font-family: "object-fit: none;";
@@ -7811,516 +7823,516 @@
   list-style-type: none;
 }
 
-.u-list--column-1 {
+.u-list.has-column-1 {
   -webkit-column-count: 1;
           column-count: 1;
 }
 
-.u-list--column-2 {
+.u-list.has-column-2 {
   -webkit-column-count: 2;
           column-count: 2;
 }
 
-.u-list--column-3 {
+.u-list.has-column-3 {
   -webkit-column-count: 3;
           column-count: 3;
 }
 
-.u-list--column-4 {
+.u-list.has-column-4 {
   -webkit-column-count: 4;
           column-count: 4;
 }
 
-.u-list--column-5 {
+.u-list.has-column-5 {
   -webkit-column-count: 5;
           column-count: 5;
 }
 
-.u-list--column-6 {
+.u-list.has-column-6 {
   -webkit-column-count: 6;
           column-count: 6;
 }
 
-.u-list--column-7 {
+.u-list.has-column-7 {
   -webkit-column-count: 7;
           column-count: 7;
 }
 
-.u-list--column-8 {
+.u-list.has-column-8 {
   -webkit-column-count: 8;
           column-count: 8;
 }
 
-.u-list--column-9 {
+.u-list.has-column-9 {
   -webkit-column-count: 9;
           column-count: 9;
 }
 
-.u-list--column-10 {
+.u-list.has-column-10 {
   -webkit-column-count: 10;
           column-count: 10;
 }
 
-.u-list--gap-10 {
+.u-list.has-gap-10 {
   -webkit-column-gap: 10px;
           column-gap: 10px;
 }
 
-.u-list--gap-20 {
+.u-list.has-gap-20 {
   -webkit-column-gap: 20px;
           column-gap: 20px;
 }
 
-.u-list--gap-30 {
+.u-list.has-gap-30 {
   -webkit-column-gap: 30px;
           column-gap: 30px;
 }
 
-.u-list--gap-40 {
+.u-list.has-gap-40 {
   -webkit-column-gap: 40px;
           column-gap: 40px;
 }
 
-.u-list--gap-50 {
+.u-list.has-gap-50 {
   -webkit-column-gap: 50px;
           column-gap: 50px;
 }
 
-.u-list--gap-60 {
+.u-list.has-gap-60 {
   -webkit-column-gap: 60px;
           column-gap: 60px;
 }
 
-.u-list--gap-70 {
+.u-list.has-gap-70 {
   -webkit-column-gap: 70px;
           column-gap: 70px;
 }
 
-.u-list--gap-80 {
+.u-list.has-gap-80 {
   -webkit-column-gap: 80px;
           column-gap: 80px;
 }
 
-.u-list--gap-90 {
+.u-list.has-gap-90 {
   -webkit-column-gap: 90px;
           column-gap: 90px;
 }
 
-.u-list--gap-100 {
+.u-list.has-gap-100 {
   -webkit-column-gap: 100px;
           column-gap: 100px;
 }
 
 @media (min-width: 410px) {
-  .u-list--column-xs-1 {
+  .u-list.has-column-xs-1 {
     -webkit-column-count: 1;
             column-count: 1;
   }
-  .u-list--column-xs-2 {
+  .u-list.has-column-xs-2 {
     -webkit-column-count: 2;
             column-count: 2;
   }
-  .u-list--column-xs-3 {
+  .u-list.has-column-xs-3 {
     -webkit-column-count: 3;
             column-count: 3;
   }
-  .u-list--column-xs-4 {
+  .u-list.has-column-xs-4 {
     -webkit-column-count: 4;
             column-count: 4;
   }
-  .u-list--column-xs-5 {
+  .u-list.has-column-xs-5 {
     -webkit-column-count: 5;
             column-count: 5;
   }
-  .u-list--column-xs-6 {
+  .u-list.has-column-xs-6 {
     -webkit-column-count: 6;
             column-count: 6;
   }
-  .u-list--column-xs-7 {
+  .u-list.has-column-xs-7 {
     -webkit-column-count: 7;
             column-count: 7;
   }
-  .u-list--column-xs-8 {
+  .u-list.has-column-xs-8 {
     -webkit-column-count: 8;
             column-count: 8;
   }
-  .u-list--column-xs-9 {
+  .u-list.has-column-xs-9 {
     -webkit-column-count: 9;
             column-count: 9;
   }
-  .u-list--column-xs-10 {
+  .u-list.has-column-xs-10 {
     -webkit-column-count: 10;
             column-count: 10;
   }
-  .u-list--gap-xs-10 {
+  .u-list.has-gap-xs-10 {
     -webkit-column-gap: 10px;
             column-gap: 10px;
   }
-  .u-list--gap-xs-20 {
+  .u-list.has-gap-xs-20 {
     -webkit-column-gap: 20px;
             column-gap: 20px;
   }
-  .u-list--gap-xs-30 {
+  .u-list.has-gap-xs-30 {
     -webkit-column-gap: 30px;
             column-gap: 30px;
   }
-  .u-list--gap-xs-40 {
+  .u-list.has-gap-xs-40 {
     -webkit-column-gap: 40px;
             column-gap: 40px;
   }
-  .u-list--gap-xs-50 {
+  .u-list.has-gap-xs-50 {
     -webkit-column-gap: 50px;
             column-gap: 50px;
   }
-  .u-list--gap-xs-60 {
+  .u-list.has-gap-xs-60 {
     -webkit-column-gap: 60px;
             column-gap: 60px;
   }
-  .u-list--gap-xs-70 {
+  .u-list.has-gap-xs-70 {
     -webkit-column-gap: 70px;
             column-gap: 70px;
   }
-  .u-list--gap-xs-80 {
+  .u-list.has-gap-xs-80 {
     -webkit-column-gap: 80px;
             column-gap: 80px;
   }
-  .u-list--gap-xs-90 {
+  .u-list.has-gap-xs-90 {
     -webkit-column-gap: 90px;
             column-gap: 90px;
   }
-  .u-list--gap-xs-100 {
+  .u-list.has-gap-xs-100 {
     -webkit-column-gap: 100px;
             column-gap: 100px;
   }
 }
 
 @media (min-width: 576px) {
-  .u-list--column-sm-1 {
+  .u-list.has-column-sm-1 {
     -webkit-column-count: 1;
             column-count: 1;
   }
-  .u-list--column-sm-2 {
+  .u-list.has-column-sm-2 {
     -webkit-column-count: 2;
             column-count: 2;
   }
-  .u-list--column-sm-3 {
+  .u-list.has-column-sm-3 {
     -webkit-column-count: 3;
             column-count: 3;
   }
-  .u-list--column-sm-4 {
+  .u-list.has-column-sm-4 {
     -webkit-column-count: 4;
             column-count: 4;
   }
-  .u-list--column-sm-5 {
+  .u-list.has-column-sm-5 {
     -webkit-column-count: 5;
             column-count: 5;
   }
-  .u-list--column-sm-6 {
+  .u-list.has-column-sm-6 {
     -webkit-column-count: 6;
             column-count: 6;
   }
-  .u-list--column-sm-7 {
+  .u-list.has-column-sm-7 {
     -webkit-column-count: 7;
             column-count: 7;
   }
-  .u-list--column-sm-8 {
+  .u-list.has-column-sm-8 {
     -webkit-column-count: 8;
             column-count: 8;
   }
-  .u-list--column-sm-9 {
+  .u-list.has-column-sm-9 {
     -webkit-column-count: 9;
             column-count: 9;
   }
-  .u-list--column-sm-10 {
+  .u-list.has-column-sm-10 {
     -webkit-column-count: 10;
             column-count: 10;
   }
-  .u-list--gap-sm-10 {
+  .u-list.has-gap-sm-10 {
     -webkit-column-gap: 10px;
             column-gap: 10px;
   }
-  .u-list--gap-sm-20 {
+  .u-list.has-gap-sm-20 {
     -webkit-column-gap: 20px;
             column-gap: 20px;
   }
-  .u-list--gap-sm-30 {
+  .u-list.has-gap-sm-30 {
     -webkit-column-gap: 30px;
             column-gap: 30px;
   }
-  .u-list--gap-sm-40 {
+  .u-list.has-gap-sm-40 {
     -webkit-column-gap: 40px;
             column-gap: 40px;
   }
-  .u-list--gap-sm-50 {
+  .u-list.has-gap-sm-50 {
     -webkit-column-gap: 50px;
             column-gap: 50px;
   }
-  .u-list--gap-sm-60 {
+  .u-list.has-gap-sm-60 {
     -webkit-column-gap: 60px;
             column-gap: 60px;
   }
-  .u-list--gap-sm-70 {
+  .u-list.has-gap-sm-70 {
     -webkit-column-gap: 70px;
             column-gap: 70px;
   }
-  .u-list--gap-sm-80 {
+  .u-list.has-gap-sm-80 {
     -webkit-column-gap: 80px;
             column-gap: 80px;
   }
-  .u-list--gap-sm-90 {
+  .u-list.has-gap-sm-90 {
     -webkit-column-gap: 90px;
             column-gap: 90px;
   }
-  .u-list--gap-sm-100 {
+  .u-list.has-gap-sm-100 {
     -webkit-column-gap: 100px;
             column-gap: 100px;
   }
 }
 
 @media (min-width: 768px) {
-  .u-list--column-md-1 {
+  .u-list.has-column-md-1 {
     -webkit-column-count: 1;
             column-count: 1;
   }
-  .u-list--column-md-2 {
+  .u-list.has-column-md-2 {
     -webkit-column-count: 2;
             column-count: 2;
   }
-  .u-list--column-md-3 {
+  .u-list.has-column-md-3 {
     -webkit-column-count: 3;
             column-count: 3;
   }
-  .u-list--column-md-4 {
+  .u-list.has-column-md-4 {
     -webkit-column-count: 4;
             column-count: 4;
   }
-  .u-list--column-md-5 {
+  .u-list.has-column-md-5 {
     -webkit-column-count: 5;
             column-count: 5;
   }
-  .u-list--column-md-6 {
+  .u-list.has-column-md-6 {
     -webkit-column-count: 6;
             column-count: 6;
   }
-  .u-list--column-md-7 {
+  .u-list.has-column-md-7 {
     -webkit-column-count: 7;
             column-count: 7;
   }
-  .u-list--column-md-8 {
+  .u-list.has-column-md-8 {
     -webkit-column-count: 8;
             column-count: 8;
   }
-  .u-list--column-md-9 {
+  .u-list.has-column-md-9 {
     -webkit-column-count: 9;
             column-count: 9;
   }
-  .u-list--column-md-10 {
+  .u-list.has-column-md-10 {
     -webkit-column-count: 10;
             column-count: 10;
   }
-  .u-list--gap-md-10 {
+  .u-list.has-gap-md-10 {
     -webkit-column-gap: 10px;
             column-gap: 10px;
   }
-  .u-list--gap-md-20 {
+  .u-list.has-gap-md-20 {
     -webkit-column-gap: 20px;
             column-gap: 20px;
   }
-  .u-list--gap-md-30 {
+  .u-list.has-gap-md-30 {
     -webkit-column-gap: 30px;
             column-gap: 30px;
   }
-  .u-list--gap-md-40 {
+  .u-list.has-gap-md-40 {
     -webkit-column-gap: 40px;
             column-gap: 40px;
   }
-  .u-list--gap-md-50 {
+  .u-list.has-gap-md-50 {
     -webkit-column-gap: 50px;
             column-gap: 50px;
   }
-  .u-list--gap-md-60 {
+  .u-list.has-gap-md-60 {
     -webkit-column-gap: 60px;
             column-gap: 60px;
   }
-  .u-list--gap-md-70 {
+  .u-list.has-gap-md-70 {
     -webkit-column-gap: 70px;
             column-gap: 70px;
   }
-  .u-list--gap-md-80 {
+  .u-list.has-gap-md-80 {
     -webkit-column-gap: 80px;
             column-gap: 80px;
   }
-  .u-list--gap-md-90 {
+  .u-list.has-gap-md-90 {
     -webkit-column-gap: 90px;
             column-gap: 90px;
   }
-  .u-list--gap-md-100 {
+  .u-list.has-gap-md-100 {
     -webkit-column-gap: 100px;
             column-gap: 100px;
   }
 }
 
 @media (min-width: 992px) {
-  .u-list--column-lg-1 {
+  .u-list.has-column-lg-1 {
     -webkit-column-count: 1;
             column-count: 1;
   }
-  .u-list--column-lg-2 {
+  .u-list.has-column-lg-2 {
     -webkit-column-count: 2;
             column-count: 2;
   }
-  .u-list--column-lg-3 {
+  .u-list.has-column-lg-3 {
     -webkit-column-count: 3;
             column-count: 3;
   }
-  .u-list--column-lg-4 {
+  .u-list.has-column-lg-4 {
     -webkit-column-count: 4;
             column-count: 4;
   }
-  .u-list--column-lg-5 {
+  .u-list.has-column-lg-5 {
     -webkit-column-count: 5;
             column-count: 5;
   }
-  .u-list--column-lg-6 {
+  .u-list.has-column-lg-6 {
     -webkit-column-count: 6;
             column-count: 6;
   }
-  .u-list--column-lg-7 {
+  .u-list.has-column-lg-7 {
     -webkit-column-count: 7;
             column-count: 7;
   }
-  .u-list--column-lg-8 {
+  .u-list.has-column-lg-8 {
     -webkit-column-count: 8;
             column-count: 8;
   }
-  .u-list--column-lg-9 {
+  .u-list.has-column-lg-9 {
     -webkit-column-count: 9;
             column-count: 9;
   }
-  .u-list--column-lg-10 {
+  .u-list.has-column-lg-10 {
     -webkit-column-count: 10;
             column-count: 10;
   }
-  .u-list--gap-lg-10 {
+  .u-list.has-gap-lg-10 {
     -webkit-column-gap: 10px;
             column-gap: 10px;
   }
-  .u-list--gap-lg-20 {
+  .u-list.has-gap-lg-20 {
     -webkit-column-gap: 20px;
             column-gap: 20px;
   }
-  .u-list--gap-lg-30 {
+  .u-list.has-gap-lg-30 {
     -webkit-column-gap: 30px;
             column-gap: 30px;
   }
-  .u-list--gap-lg-40 {
+  .u-list.has-gap-lg-40 {
     -webkit-column-gap: 40px;
             column-gap: 40px;
   }
-  .u-list--gap-lg-50 {
+  .u-list.has-gap-lg-50 {
     -webkit-column-gap: 50px;
             column-gap: 50px;
   }
-  .u-list--gap-lg-60 {
+  .u-list.has-gap-lg-60 {
     -webkit-column-gap: 60px;
             column-gap: 60px;
   }
-  .u-list--gap-lg-70 {
+  .u-list.has-gap-lg-70 {
     -webkit-column-gap: 70px;
             column-gap: 70px;
   }
-  .u-list--gap-lg-80 {
+  .u-list.has-gap-lg-80 {
     -webkit-column-gap: 80px;
             column-gap: 80px;
   }
-  .u-list--gap-lg-90 {
+  .u-list.has-gap-lg-90 {
     -webkit-column-gap: 90px;
             column-gap: 90px;
   }
-  .u-list--gap-lg-100 {
+  .u-list.has-gap-lg-100 {
     -webkit-column-gap: 100px;
             column-gap: 100px;
   }
 }
 
 @media (min-width: 1200px) {
-  .u-list--column-xl-1 {
+  .u-list.has-column-xl-1 {
     -webkit-column-count: 1;
             column-count: 1;
   }
-  .u-list--column-xl-2 {
+  .u-list.has-column-xl-2 {
     -webkit-column-count: 2;
             column-count: 2;
   }
-  .u-list--column-xl-3 {
+  .u-list.has-column-xl-3 {
     -webkit-column-count: 3;
             column-count: 3;
   }
-  .u-list--column-xl-4 {
+  .u-list.has-column-xl-4 {
     -webkit-column-count: 4;
             column-count: 4;
   }
-  .u-list--column-xl-5 {
+  .u-list.has-column-xl-5 {
     -webkit-column-count: 5;
             column-count: 5;
   }
-  .u-list--column-xl-6 {
+  .u-list.has-column-xl-6 {
     -webkit-column-count: 6;
             column-count: 6;
   }
-  .u-list--column-xl-7 {
+  .u-list.has-column-xl-7 {
     -webkit-column-count: 7;
             column-count: 7;
   }
-  .u-list--column-xl-8 {
+  .u-list.has-column-xl-8 {
     -webkit-column-count: 8;
             column-count: 8;
   }
-  .u-list--column-xl-9 {
+  .u-list.has-column-xl-9 {
     -webkit-column-count: 9;
             column-count: 9;
   }
-  .u-list--column-xl-10 {
+  .u-list.has-column-xl-10 {
     -webkit-column-count: 10;
             column-count: 10;
   }
-  .u-list--gap-xl-10 {
+  .u-list.has-gap-xl-10 {
     -webkit-column-gap: 10px;
             column-gap: 10px;
   }
-  .u-list--gap-xl-20 {
+  .u-list.has-gap-xl-20 {
     -webkit-column-gap: 20px;
             column-gap: 20px;
   }
-  .u-list--gap-xl-30 {
+  .u-list.has-gap-xl-30 {
     -webkit-column-gap: 30px;
             column-gap: 30px;
   }
-  .u-list--gap-xl-40 {
+  .u-list.has-gap-xl-40 {
     -webkit-column-gap: 40px;
             column-gap: 40px;
   }
-  .u-list--gap-xl-50 {
+  .u-list.has-gap-xl-50 {
     -webkit-column-gap: 50px;
             column-gap: 50px;
   }
-  .u-list--gap-xl-60 {
+  .u-list.has-gap-xl-60 {
     -webkit-column-gap: 60px;
             column-gap: 60px;
   }
-  .u-list--gap-xl-70 {
+  .u-list.has-gap-xl-70 {
     -webkit-column-gap: 70px;
             column-gap: 70px;
   }
-  .u-list--gap-xl-80 {
+  .u-list.has-gap-xl-80 {
     -webkit-column-gap: 80px;
             column-gap: 80px;
   }
-  .u-list--gap-xl-90 {
+  .u-list.has-gap-xl-90 {
     -webkit-column-gap: 90px;
             column-gap: 90px;
   }
-  .u-list--gap-xl-100 {
+  .u-list.has-gap-xl-100 {
     -webkit-column-gap: 100px;
             column-gap: 100px;
   }
@@ -8329,74 +8341,74 @@
 /*--------------------------------------------------
   Bordered
 --------------------------------------------------*/
-.u-bordered {
+.u-border {
   position: relative;
   border-width: 1px;
   border-style: solid;
   border-color: #9E9E9E;
 }
 
-.u-bordered--hidden {
+.u-border.is-hidden {
   border-style: hidden;
 }
 
-.u-bordered--dashed {
+.u-border.is-dashed {
   border-style: dashed;
 }
 
-.u-bordered--dotted {
+.u-border.is-dotted {
   border-style: dotted;
 }
 
-.u-bordered--double {
+.u-border.is-double {
   border-style: double;
 }
 
-.u-bordered--groove {
+.u-border.is-groove {
   border-style: groove;
 }
 
-.u-bordered--outset {
+.u-border.is-outset {
   border-style: outset;
 }
 
-.u-bordered--inset {
+.u-border.is-inset {
   border-style: inset;
 }
 
-.u-bordered--ridge {
+.u-border.is-ridge {
   border-style: ridge;
 }
 
-.u-bordered--solid {
+.u-border.is-solid {
   border-style: solid;
 }
 
-.u-bordered--top {
+.u-border.is-top {
   border-width: 1px 0 0 0;
 }
 
-.u-bordered--right {
+.u-border.is-right {
   border-width: 0 0 0 1px;
 }
 
-.u-bordered--bottom {
+.u-border.is-bottom {
   border-width: 0 0 1px 0;
 }
 
-.u-bordered--left {
+.u-border.is-left {
   border-width: 0 1px 0 0;
 }
 
-.u-bordered--ver {
+.u-border.is-ver {
   border-width: 1px 0;
 }
 
-.u-bordered--hor {
+.u-border.is-hor {
   border-width: 0 1px;
 }
 
-.u-bordered--seq:last-of-type {
+.u-border.is-seq:last-of-type {
   border: none;
 }
 

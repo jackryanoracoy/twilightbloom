@@ -17,7 +17,7 @@
   margin-right: auto;
   margin-left: auto;
 
-  &--fluid { max-width: 100% !important; }
+  &.is-fluid { max-width: 100% !important; }
 
   @include media-breakpoint-min(xs) {
     max-width: $container-xs;

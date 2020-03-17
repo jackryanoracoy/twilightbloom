@@ -15,7 +15,7 @@
   position: relative;
 }
 
-.c-form--fuid {
+.c-form.is-fuid {
   width: 100%;
 }
 
@@ -149,42 +149,42 @@
           box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 4px 4px -4px rgba(0, 0, 0, 0.2);
 }
 
-.c-button--block {
+.c-button.is-block {
   display: block;
 }
 
-.c-button--large {
+.c-button.is-large {
   min-width: 50px;
   line-height: 50px;
   padding: 0 20px;
 }
 
-.c-button--light {
+.c-button.is-light {
   color: #212121 !important;
   background-color: #FAFAFA;
 }
 
-.c-button--dark {
+.c-button.is-dark {
   color: #FAFAFA !important;
   background-color: #212121;
 }
 
-.c-button--success {
+.c-button.is-success {
   color: #FAFAFA !important;
   background-color: #4CAF50;
 }
 
-.c-button--warnig {
+.c-button.is-warnig {
   color: #FAFAFA !important;
   background-color: #FF9800;
 }
 
-.c-button--danger {
+.c-button.is-danger {
   color: #FAFAFA !important;
   background-color: #F44336;
 }
 
-.c-button--info {
+.c-button.is-info {
   color: #FAFAFA !important;
   background-color: #00BCD4;
 }
@@ -201,12 +201,12 @@
           box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.c-card--dark {
+.c-card.is-dark {
   color: #FAFAFA !important;
   background-color: #212121;
 }
 
-.c-card__content {
+.c-card-content {
   padding: 20px;
 }
 
@@ -221,37 +221,37 @@
   overflow: auto;
 }
 
-.c-highlight--light {
+.c-highlight.is-light {
   color: #212121;
   background-color: #FAFAFA;
 }
 
-.c-highlight--dark {
+.c-highlight.is-dark {
   color: #FAFAFA;
   background-color: #212121;
 }
 
-.c-highlight--success {
+.c-highlight.is-success {
   color: #FAFAFA;
   background-color: #4CAF50;
 }
 
-.c-highlight--warning {
+.c-highlight.is-warning {
   color: #FAFAFA;
   background-color: #FF9800;
 }
 
-.c-highlight--danger {
+.c-highlight.is-danger {
   color: #FAFAFA;
   background-color: #F44336;
 }
 
-.c-highlight--info {
+.c-highlight.is-info {
   color: #FAFAFA;
   background-color: #00BCD4;
 }
 
-.c-highlight--grey {
+.c-highlight.is-grey {
   color: #212121;
   background-color: #E0E0E0;
 }
@@ -306,7 +306,7 @@
   text-decoration: none;
 }
 
-.c-site-menu__box {
+.c-site-menu-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -320,7 +320,7 @@
   height: 24px;
 }
 
-.c-site-menu__inner {
+.c-site-menu-inner {
   position: relative;
   display: block;
   width: inherit;
@@ -328,7 +328,7 @@
   background-color: #FAFAFA;
 }
 
-.c-site-menu__inner::after, .c-site-menu__inner::before {
+.c-site-menu-inner::after, .c-site-menu-inner::before {
   position: absolute;
   content: "";
   display: block;
@@ -339,29 +339,29 @@
   transition: all 200ms ease-in-out;
 }
 
-.c-site-menu__text {
+.c-site-menu-text {
   margin: 4px 0 0;
 }
 
-.c-site-menu__inner::before {
+.c-site-menu-inner::before {
   top: -10px;
 }
 
-.c-site-menu__inner::after {
+.c-site-menu-inner::after {
   bottom: -10px;
 }
 
-.c-site-menu.js-active .c-site-menu__inner {
+.c-site-menu.js-active .c-site-menu-inner {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.c-site-menu.js-active .c-site-menu__inner::before {
+.c-site-menu.js-active .c-site-menu-inner::before {
   top: 0;
   -webkit-transform: rotate(-40deg);
           transform: rotate(-40deg);
 }
 
-.c-site-menu.js-active .c-site-menu__inner::after {
+.c-site-menu.js-active .c-site-menu-inner::after {
   bottom: 0;
   -webkit-transform: rotate(40deg);
           transform: rotate(40deg);
@@ -381,11 +381,11 @@
   list-style: none;
 }
 
-.c-site-nav__item {
+.c-site-nav-item {
   overflow: hidden;
 }
 
-.c-site-nav__item a {
+.c-site-nav-item a {
   display: block;
   padding: 0 10px;
   color: #FFF;
@@ -397,8 +397,8 @@
   white-space: nowrap;
 }
 
-.c-site-nav__item a:hover,
-.c-site-nav__item--active a {
+.c-site-nav-item a:hover,
+.c-site-nav-item--active a {
   text-decoration: underline;
 }
 
@@ -409,7 +409,7 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .c-site-nav--alt {
+  .c-site-nav.is-alt {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -436,12 +436,12 @@
   white-space: nowrap;
 }
 
-.c-site-branding__logo {
+.c-site-branding-logo {
   max-width: 100%;
   max-height: calc(100% - 20px);
 }
 
-.c-site-branding__title {
+.c-site-branding-title {
   font-size: inherit;
   text-overflow: ellipsis;
   overflow: hidden;

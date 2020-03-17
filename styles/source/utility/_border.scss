@@ -12,29 +12,29 @@
   Bordered
 --------------------------------------------------*/
 
-.u-bordered {
+.u-border {
   position: relative;
   border-width: $border-width;
   border-style: solid;
   border-color: $grey-500;
 
-  &--hidden { border-style: hidden; }
-  &--dashed { border-style: dashed; }
-  &--dotted { border-style: dotted; }
-  &--double { border-style: double; }
-  &--groove { border-style: groove; }
-  &--outset { border-style: outset; }
-  &--inset { border-style: inset; }
-  &--ridge { border-style: ridge; }
-  &--solid { border-style: solid; }
+  &.is-hidden { border-style: hidden; }
+  &.is-dashed { border-style: dashed; }
+  &.is-dotted { border-style: dotted; }
+  &.is-double { border-style: double; }
+  &.is-groove { border-style: groove; }
+  &.is-outset { border-style: outset; }
+  &.is-inset { border-style: inset; }
+  &.is-ridge { border-style: ridge; }
+  &.is-solid { border-style: solid; }
 
-  &--top { border-width: $border-width 0 0 0; }
-  &--right { border-width: 0 0 0 $border-width; }
-  &--bottom { border-width: 0 0 $border-width 0; }
-  &--left { border-width: 0 $border-width 0 0; }
-  &--ver { border-width: $border-width 0; }
-  &--hor { border-width: 0 $border-width; }
+  &.is-top { border-width: $border-width 0 0 0; }
+  &.is-right { border-width: 0 0 0 $border-width; }
+  &.is-bottom { border-width: 0 0 $border-width 0; }
+  &.is-left { border-width: 0 $border-width 0 0; }
+  &.is-ver { border-width: $border-width 0; }
+  &.is-hor { border-width: 0 $border-width; }
 
-  &--seq:last-of-type { border: none; }
+  &.is-seq:last-of-type { border: none; }
 }
 

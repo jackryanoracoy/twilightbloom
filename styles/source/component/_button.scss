@@ -36,40 +36,40 @@
     box-shadow: $z-depth-2;
   }
 
-  &--block { display: block; }
+  &.is-block { display: block; }
 
-  &--large {
+  &.is-large {
     min-width: $button-height-lg;
     line-height: $button-height-lg;
     padding: 0 20px;
   }
 
-  &--light {
+  &.is-light {
     color: $dark !important;
     background-color: $light;
   }
 
-  &--dark {
+  &.is-dark {
     color: $light !important;
     background-color: $dark;
   }
 
-  &--success {
+  &.is-success {
     color: $light !important;
     background-color: $success;
   }
 
-  &--warnig {
+  &.is-warnig {
     color: $light !important;
     background-color: $warning;
   }
 
-  &--danger {
+  &.is-danger {
     color: $light!important;
     background-color: $danger;
   }
 
-  &--info {
+  &.is-info {
     color: $light !important;
     background-color: $info;
   }

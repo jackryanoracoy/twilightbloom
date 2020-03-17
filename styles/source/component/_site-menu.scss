@@ -19,7 +19,7 @@
   text-align: center;
   text-decoration: none;
 
-  &__box {
+  &-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +27,7 @@
     height: 24px;
   }
 
-  &__inner {
+  &-inner {
     position: relative;
     display: block;
     width: inherit;
@@ -35,8 +35,8 @@
     background-color: $light;
   }
 
-  &__inner::after,
-  &__inner::before {
+  &-inner::after,
+  &-inner::before {
     position: absolute;
     content: "";
     display: block;
@@ -46,12 +46,12 @@
     transition: all 200ms ease-in-out;
   }
 
-  &__text { margin: 4px 0 0; }
-  &__inner::before { top: -10px; }
-  &__inner::after { bottom: -10px; }
+  &-text { margin: 4px 0 0; }
+  &-inner::before { top: -10px; }
+  &-inner::after { bottom: -10px; }
 
-  &.js-active &__inner { background-color: rgba(0, 0, 0, 0); }
-  &.js-active &__inner::before { top: 0; transform: rotate(-40deg); }
-  &.js-active &__inner::after { bottom: 0; transform: rotate(40deg); }
+  &.js-active &-inner { background-color: rgba(0, 0, 0, 0); }
+  &.js-active &-inner::before { top: 0; transform: rotate(-40deg); }
+  &.js-active &-inner::after { bottom: 0; transform: rotate(40deg); }
 }
 

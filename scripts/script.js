@@ -11,31 +11,33 @@
 // IE support for "main"
 document.createElement('main');
 
+// Detect if user is using TAB to navigate
+function handleFirstTab(e) {
+  if (e.keyCode === 9) {
+    document.body.classList.add('js-tab-used');
+    window.removeEventListener('keydown', handleFirstTab);
+  }
+}
+window.addEventListener('keydown', handleFirstTab);
+
+
+
 // Object-Fit
 $(function () { objectFitImages() });
 
 // Add target="_blank" rel="noreferrer noopener"
 $('a[href^="http://"], a[href^="https://"]').attr({ target:"_blank", rel:"noreferrer noopener" });
 
-// Detect if user is using TAB to navigate
-function handleFirstTab(e) {
-  if (e.keyCode === 9) {
-    document.body.classList.add('tab-used');
-    window.removeEventListener('keydown', handleFirstTab);
-  }
-}
-window.addEventListener('keydown', handleFirstTab);
-
 // Toggle class on click
 $(document).ready(function($) {
   $('.c-site-menu').click(function() {
     $('.c-site-menu').stop().toggleClass('js-active');
-    $('.l-site-header__navigation, .l-site-navigation').stop().toggleClass('js-show');
+    $('.l-site-header-navigation, .l-site-navigation').stop().toggleClass('js-show');
   });
 });
 
 // Parallax
-$('.l-parallax__image').each(function() {
+$('.l-parallax-image').each(function() {
   var img = $(this);
   var imgParent = $(this).parent();
   function parallaxImg () {

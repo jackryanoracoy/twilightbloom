@@ -22,12 +22,12 @@
   line-height: 1.6;
   white-space: nowrap;
 
-  &__logo {
+  &-logo {
     max-width: 100%;
     max-height: calc(100% - 20px);
   }
 
-  &__title {
+  &-title {
     font-size: inherit;
     text-overflow: ellipsis;
     overflow: hidden;

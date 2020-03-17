@@ -18,37 +18,37 @@
   border-radius: 4px;
   overflow: auto;
 
-  &--light {
+  &.is-light {
     color: $dark;
     background-color: $light;
   }
 
-  &--dark {
+  &.is-dark {
     color: $light;
     background-color: $dark;
   }
 
-  &--success {
+  &.is-success {
     color: $light;
     background-color: $success;
   }
 
-  &--warning {
+  &.is-warning {
     color: $light;
     background-color: $warning;
   }
 
-  &--danger {
+  &.is-danger {
     color: $light;
     background-color: $danger;
   }
 
-  &--info {
+  &.is-info {
     color: $light;
     background-color: $info;
   }
 
-  &--grey {
+  &.is-grey {
     color: $dark;
     background-color: $grey-300;
   }

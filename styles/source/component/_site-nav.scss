@@ -16,11 +16,11 @@
   flex-direction: column;
   list-style: none;
 
-  &__item {
+  &-item {
     overflow: hidden;
   }
 
-  &__item a {
+  &-item a {
     display: block;
     padding: 0 10px;
     color: #FFF;
@@ -32,14 +32,14 @@
     white-space: nowrap;
   }
 
-  &__item a:hover,
-  &__item--active a {
+  &-item a:hover,
+  &-item--active a {
     text-decoration: underline;
   }
 
   @include media-breakpoint-min(lg) {
     flex-direction: row;
 
-    &--alt { flex-direction: column; }
+    &.is-alt { flex-direction: column; }
   }
 }

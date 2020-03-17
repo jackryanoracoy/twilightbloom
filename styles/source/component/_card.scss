@@ -18,10 +18,10 @@
   border-radius: 2px;
   box-shadow: $z-depth-1;
 
-  &--dark {
+  &.is-dark {
     color: $light !important;
     background-color: $dark;
   }
 
-  &__content { padding: 20px; }
+  &-content { padding: 20px; }
 }

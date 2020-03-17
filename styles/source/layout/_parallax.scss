@@ -17,7 +17,7 @@
   z-index: 1;
 
   & picture,
-  &__image {
+  &-image {
     position: absolute;
     z-index: -1;
     pointer-events: none;
@@ -30,7 +30,7 @@
     left: 0;
   }
 
-  &__image {
+  &-image {
     top: 50%;
     left: 50%;
     width: 100%;
