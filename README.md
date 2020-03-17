@@ -284,7 +284,8 @@ Import order:
 ## Template Samples
 このテンプレートで期待されるもののサンプルを次に示します。詳細については、*。cssを確認してください。  
   
-### Container
+Container:  
+  
 ```
 <div class="l-container">
   <!-- Content here -->
@@ -295,7 +296,8 @@ Import order:
 </div>
 ```
   
-### Flex
+Flex:  
+  
 ```
 <div class="l-flex">
   <div class="l-flex-item-12 l-flex-item-md-6"><!-- Content here --></div>
@@ -303,7 +305,8 @@ Import order:
 </div>
 ```
   
-### Cluster Gap
+Cluster Gap:  
+  
 ```
 // You can omit adding class name "l-gap-item" on "l-gap" child item (only if the child item is a "div").
 <div class="l-flex l-gap-20">
@@ -312,14 +315,16 @@ Import order:
 </div>
 ```
   
-### Parallax
+Parallax:  
+  
 ```
 <div class="l-parallax">
   <img class="u-parallax-image" src="/assets/images/xxx.jpg" alt="Image">
 </div>
 ```
   
-### Tab
+Tab:  
+  
 ```
 <ul class="c-tab-link">
   <li class="c-tab-link-item" data-tab="tab-1">Tab 1</li>
@@ -334,12 +339,14 @@ Import order:
 </div>
 ```
   
-### Button
+Button:  
+  
 ```
 <a class="c-button" href="#">Button</a>
 ```
   
-### Card
+Card:  
+  
 ```
 <div class="c-card">
   <div class="c-card-content">
@@ -348,7 +355,8 @@ Import order:
 </div>
 ```
   
-### Hidden
+Hidden:  
+  
 ```
 <div class="u-hidden">
   <!-- Hidden content here (all screen) -->
@@ -395,7 +403,8 @@ Import order:
 </div>
 ```
   
-### Float
+Float:  
+  
 ```
 <div class="clearfix">
   <div class="u-float-left">
@@ -410,54 +419,61 @@ Import order:
 </div>
 ```
   
-### Width and Height
+Width and Height:  
+  
 ```
 <div class="u-width-100 u-height-100">
   <!-- 100& width and height -->
 </div>
 ```
   
-### Padding
+Padding:  
+  
 ```
 <div class="u-pad-bottom-10 u-pad-bottom-sm-20">
   <!-- Add padding (10px padding on 575px below, 20px padding on 576 and above) -->
 </div>
 ```
   
-### Margin
+Margin:  
+  
 ```
 <div class="u-mar-bottom-10 u-mar-bottom-sm-20">
   <!-- Add margin (10px margin on 575px below, 20px margin on 576 and above) -->
 </div>
 ```
     
-### Typography
+Typography:  
+  
 ```
 <div class="u-text-center u-text-left-md">
   <!-- Align text (align center on 575px below, align left on 576 and above) -->
 </div>
 ```
   
-### Object fit
+Object fit:  
+  
 ```
 <img class="u-object-fit u-object-fit--cover" src="/assets/images/xxx.jpg" alt="Image">
 ```
   
-### Bordered
+Bordered:  
+  
 ```
 <div class="u-bordered u-bordered--bottom u-bordered--top-sm">
   <!-- Add border (bottom border on 575px below, top border on 576 and above) -->
 </div>
 ```
   
-### List
+List:  
+  
 ```
 <ul class="u-list">
   <li><!-- List (Without style) --></li>
 </ul>
 ```
   
-### Color
+Color
 ```
 <div class="u-background-color-dark">
   <p class="u-color-light">Text color is light, container color is dark.</p>
